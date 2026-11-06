@@ -1,4 +1,4 @@
-"""The conversational loop: parse -> (carry state) -> gate -> retrieve -> generate -> validate."""
+"""Chat loop: parse -> merge state -> gate -> retrieve -> generate -> validate."""
 from __future__ import annotations
 
 import re
@@ -15,7 +15,7 @@ from .validator import Validation, validate
 @dataclass
 class TurnResult:
     text: str
-    product_ids: list[str]            # what retrieval handed the generator, in rank order
+    product_ids: list[str]            # retrieved ids, in rank order
     constraints: Constraints
     action: str                       # answer | refuse_out_of_catalogue | no_match | validation_fallback
     unknown_terms: list[str]
@@ -36,8 +36,8 @@ class Config:
 
 
 def brand_like_terms(message: str, unknown: list[str]) -> list[str]:
-    """Unknown words that sit where a brand would: capitalised, not sentence-initial,
-    and within three words before a product noun ("any Dr Martens boots?")."""
+    # unknown capitalised word (not first word) within 3 words before a product noun,
+    # e.g. "any Dr Martens boots?"
     words = re.findall(r"[A-Za-z0-9£'&-]+", message)
     low = [w.lower().strip("'") for w in words]
     nouns = {w for syns in CATEGORY_SYNONYMS.values() for s in syns for w in s.split()}
@@ -75,7 +75,7 @@ class Assistant:
         return cards
 
     def _why_empty(self, c: Constraints) -> str:
-        """Name the constraint that blocks results, so the failure is explicit."""
+        # try dropping one constraint at a time to see which one is the problem
         for field_name in ("colour", "max_price", "size", "brand", "gender", "min_price"):
             if getattr(c, field_name) is None:
                 continue
@@ -102,8 +102,10 @@ class Assistant:
         if self.cfg.stateful:
             self.state = c
 
-        # Gate: nothing we recognise and no category -> we don't sell it. Refuse, don't retrieve.
-        if c.category is None and unknown and not known_content:
+        # nothing we recognise and no category -> probably not something we sell
+        # use this message's category, not the carried-over one, or "do you sell a PS5?"
+        # after talking about boots would show boots
+        if parsed.constraints.category is None and unknown and not known_content:
             text = (f"Sorry, we don't sell {' '.join(unknown)}. We're a fashion retailer: "
                     "clothing, shoes, bags and watches.")
             return TurnResult(text, [], c, "refuse_out_of_catalogue", unknown, [], None, None, tm)
@@ -136,7 +138,7 @@ class Assistant:
         tm["validate"] = (time.perf_counter() - t3) * 1000
         text = g.text
         if not v.ok or g.refused_by_model:
-            # Fail loudly: log the issues, never ship the unverified text.
+            # check failed -> don't send the generated text, use the template answer instead
             action = "validation_fallback"
             safe = TemplateGenerator().generate(self.history, c, cards, notes)
             text = "[answer failed grounding check; showing verified catalogue data]\n" + safe.text

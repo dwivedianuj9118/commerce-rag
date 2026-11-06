@@ -1,8 +1,8 @@
-"""Catalogue loading, structured filtering, and BM25 / dense / hybrid retrieval.
+"""
+Catalogue loading, filters and BM25 / dense / hybrid search.
 
-Two index granularities are supported so the eval can compare them:
-  * "product": one document per parent product (the design we keep)
-  * "sku":     one document per variant SKU (the design we reject; see README)
+granularity="product" indexes parent products, "sku" indexes every variant
+(sku is only there so the eval can compare the two).
 """
 from __future__ import annotations
 
@@ -49,7 +49,7 @@ class Catalogue:
         return f"{p['name']} in {v['colour']}, size {v['size']}. {p['category']}. {p['description']}"
 
     def matching_variants(self, pid: str, c: Constraints) -> list[dict]:
-        """In-stock variants of a product satisfying the variant-level constraints."""
+        """In-stock variants that match colour / size / price."""
         out = []
         for v in self.by_id[pid]["variants"]:
             if not v["in_stock"]:
@@ -78,13 +78,8 @@ class Catalogue:
 
 # ---------------------------------------------------------------- embedders
 class LSAEmbedder:
-    """Offline dense baseline: TF-IDF (word + char n-grams) -> truncated SVD.
-
-    This is a stand-in for a neural embedder. It captures co-occurrence ("trail" near
-    "hiking") but not true paraphrase. The interface matches FastEmbedEmbedder and a
-    Bedrock Titan embedder, so swapping is one line; the eval then tells you whether
-    the better embedder actually paid for itself.
-    """
+    # TF-IDF (word + char n-grams) + SVD. not a real embedding model, just something
+    # that runs offline. use --embedder bge for a proper one.
     name = "lsa-256"
 
     def __init__(self, dim: int = 256):
@@ -111,7 +106,7 @@ class LSAEmbedder:
 
 
 class FastEmbedEmbedder:
-    """BAAI/bge-small-en-v1.5 via fastembed (ONNX, CPU). Needs HuggingFace access once."""
+    # bge-small via fastembed, downloads the model on first run
     name = "bge-small-en-v1.5"
 
     def __init__(self):
@@ -164,7 +159,7 @@ class Retriever:
 
     @staticmethod
     def _rrf(*score_lists: np.ndarray, k: int = 60) -> np.ndarray:
-        """Reciprocal-rank fusion. Uses ranks only, so BM25 and cosine need no calibration."""
+        # RRF: only uses ranks so bm25 and cosine scores don't need normalising
         fused = np.zeros_like(score_lists[0], dtype=float)
         for s in score_lists:
             ranks = np.empty_like(s, dtype=int)
@@ -187,7 +182,7 @@ class Retriever:
         hits: list[Hit] = []
         seen: set[str] = set()
         if self.granularity == "sku":
-            # A SKU index returns k *SKUs*; the user sees however many distinct products those are.
+            # top k skus, deduped by product (often way fewer than k products)
             for i in order[:k]:
                 pid = self.doc_pids[i]
                 if pid not in seen:
@@ -208,7 +203,7 @@ class Retriever:
         return hits
 
     def unknown_terms(self, query: str, extra_vocab: set[str]) -> list[str]:
-        """Content words the catalogue has never seen, e.g. 'ps5', 'gucci'."""
+        """Words that never appear in the catalogue, e.g. 'ps5', 'gucci'."""
         out = []
         for t in tokenize(query):
             if t in STOPWORDS or t in self.vocab or t in extra_vocab:

@@ -1,11 +1,6 @@
-"""Turn a shopper utterance into hard constraints + free text.
+"""Regex-based parser: shopper text -> hard constraints (category, colour, price...).
 
-Why a rule-based parser and not an LLM call?
-  * It is ~0.1 ms and free; an LLM extraction call per turn is the single biggest
-    latency/cost line in a naive agent.
-  * It is testable: evals/run_eval.py measures its extraction accuracy directly.
-  * The Bedrock generator can still be given the parsed constraints, so an LLM
-    parser is a drop-in upgrade if measurement shows the rules missing things.
+Using rules instead of an LLM call here because it's fast, free and easy to test.
 """
 from __future__ import annotations
 
@@ -64,11 +59,8 @@ class Constraints:
     size: str | None = None
 
     def merge(self, newer: "Constraints") -> "Constraints":
-        """Multi-turn carry-over: newer non-null values override older ones.
-
-        A new *category* resets colour/size, since "black" said about boots should not
-        silently carry over to a later "what about a bag?".
-        """
+        # newer values win. if the category changes, drop colour/size
+        # ("black boots" -> "what about a bag?" shouldn't keep black)
         out = Constraints(**asdict(self))
         if newer.category and newer.category != self.category:
             out.colour, out.size = None, None
@@ -95,7 +87,7 @@ def parse(text: str) -> ParsedQuery:
     t = text.lower()
     c = Constraints()
 
-    # category: longest synonym wins ("running shoes" before "shoes")
+    # longest match wins, so "running shoes" beats "shoes"
     best = None
     for cat, syns in CATEGORY_SYNONYMS.items():
         for s in syns:

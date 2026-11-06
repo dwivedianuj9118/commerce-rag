@@ -1,15 +1,10 @@
-"""Generate a synthetic fashion catalogue with variant explosion.
+"""Generates a fake fashion catalogue (seeded, so it's the same every run).
 
-Deterministic (seeded) so every eval run sees the same catalogue.
+product -> brand, category, gender, material, style/occasion tags, description
+variant -> colour x size, price, in_stock
 
-Shape of the data:
-  product (parent)  -> brand, category, gender, material, style tags, occasion tags,
-                       description written in *catalogue* vocabulary
-  variant (SKU)     -> colour x size, own price, in_stock flag
-
-Descriptions deliberately use different words from the ones shoppers use
-(e.g. "pared-back" vs "minimal", "ceremony-ready" vs "wedding"), so pure
-keyword matching is not trivially enough. The eval queries use shopper vocabulary.
+Descriptions use different words than shoppers would ("pared-back" not "minimal",
+"ceremony-ready" not "wedding") so plain keyword matching isn't enough.
 """
 from __future__ import annotations
 
@@ -20,7 +15,6 @@ from pathlib import Path
 SEED = 7
 OUT = Path(__file__).resolve().parent.parent / "data" / "catalogue.json"
 
-# Nine brands, echoing "entity resolution across nine brands" in the JD.
 # (name, price multiplier, preferred styles)
 BRANDS = [
     ("Northvale", 1.1, ["outdoor", "casual"]),

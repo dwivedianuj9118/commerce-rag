@@ -1,13 +1,9 @@
-"""Build a labelled test set from the catalogue.
+"""Builds labelled test queries from catalogue attributes.
 
-Ground truth comes from structured attributes, not from the retriever, so a query's
-relevant set is fixed before any system sees it:
-  grade 2 = satisfies every hard constraint (category, gender, in-stock colour, budget)
-            AND every soft one (occasion, style)
-  grade 1 = satisfies the hard constraints and at least one soft one
-Queries are written in shopper vocabulary. Half the soft phrases are "held-out":
-they do NOT appear in rag/synonyms.py, so we can see how much of the score comes from
-the hand-written synonym table rather than from retrieval itself.
+grade 2 = matches all hard constraints (category, gender, in-stock colour, budget) + all soft ones (occasion, style)
+grade 1 = hard constraints + at least one soft one
+
+Half the soft phrases are held out, i.e. not in rag/synonyms.py.
 """
 from __future__ import annotations
 

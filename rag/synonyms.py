@@ -1,8 +1,7 @@
-"""Merchandising synonym table: shopper phrasing -> catalogue phrasing.
+"""Synonym table: shopper words -> catalogue words.
 
-In production this comes from search logs and the merch team. Here it is hand-written,
-which makes it a source of eval leakage: the test set therefore also uses *held-out*
-phrasings that are NOT in this table, and the eval reports both slices separately.
+Hand-written for now. Some test queries use phrasings that are NOT in here
+(see evals/build_testset.py) so I can tell how much this table is doing.
 """
 from .parser import CATEGORY_SYNONYMS, COLOURS, COLOUR_SYNONYMS
 
@@ -39,7 +38,7 @@ EXPANSIONS = {
     "party": "party-ready celebrations after-dark glamour",
 }
 
-# Words the assistant treats as "known" when deciding whether a request is out of catalogue.
+# words that count as known for the out-of-catalogue check
 SHOPPER_VOCAB: set[str] = set(EXPANSIONS)
 for syns in CATEGORY_SYNONYMS.values():
     for s in syns:

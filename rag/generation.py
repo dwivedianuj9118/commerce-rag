@@ -1,9 +1,7 @@
-"""Answer generation over retrieved product cards.
+"""Answer generation.
 
-Two backends share one prompt builder, so token counts are comparable:
-  * TemplateGenerator: deterministic, no API key. Reports the tokens the Bedrock
-    prompt *would* have used (estimated at ~4 chars/token), so cost modelling works offline.
-  * BedrockGenerator: Claude on Amazon Bedrock via the Anthropic SDK's Mantle client.
+TemplateGenerator works offline (no API key). BedrockGenerator calls Claude on Bedrock.
+Both build the same prompt, so the token counts are comparable.
 """
 from __future__ import annotations
 
@@ -77,7 +75,8 @@ class TemplateGenerator:
         if not cards:
             lines.append("I couldn't find anything in our range that matches that.")
         else:
-            lines.append(f"Here are {min(3, len(cards))} options from our range:")
+            n = min(3, len(cards))
+            lines.append("Here's 1 option from our range:" if n == 1 else f"Here are {n} options from our range:")
             for i, c in enumerate(cards[:3], 1):
                 lines.append(f"{i}. {c.name} ({c.product_id}): £{c.price:.2f}, "
                              f"in {', '.join(c.colours)}; sizes {', '.join(c.sizes)}.")
@@ -86,11 +85,8 @@ class TemplateGenerator:
 
 
 class BedrockGenerator:
-    """Claude on Amazon Bedrock. Requires `pip install "anthropic[bedrock]"` and AWS credentials.
-
-    Env: AWS_REGION (default us-east-1), BEDROCK_MODEL_ID (default anthropic.claude-opus-5-5).
-    Not run in the published eval numbers: see README "What the numbers do and don't cover".
-    """
+    # needs `pip install "anthropic[bedrock]"` + AWS creds
+    # env: AWS_REGION (default us-east-1), BEDROCK_MODEL_ID
     name = "bedrock"
 
     def __init__(self, model: str | None = None, region: str | None = None):
@@ -104,7 +100,7 @@ class BedrockGenerator:
             model=self.model,
             max_tokens=2000,  # answers are capped at ~120 words by the prompt
             system=SYSTEM_PROMPT,
-            output_config={"effort": "low"},  # short chat turns; raise only if the eval shows a gain
+            output_config={"effort": "low"},  # replies are short
             messages=[{"role": "user", "content": build_user_prompt(history, constraints, cards, notes)}],
         )
         refused = resp.stop_reason == "refusal"

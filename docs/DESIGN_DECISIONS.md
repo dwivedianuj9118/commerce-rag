@@ -2,7 +2,7 @@
 
 Each decision follows the same shape: **the problem**, **what I chose**, **what I rejected**,
 **the evidence** (a number from `results/report.md` where there is one), and **the trade-off I
-accepted**. If an interviewer asks "why X?", the answer is one of these.
+accepted**.
 
 ---
 
@@ -109,7 +109,7 @@ handle yet.
 
 ## 7. Grounding: the prompt asks, the validator enforces
 
-**Problem.** The JD says the assistant "cannot hallucinate a product we do not sell". A prompt
+**Problem.** The assistant should never recommend a product the store doesn't sell. A prompt
 instruction can't guarantee that, because LLM output is non-deterministic.
 
 **Chose.** Two layers:
@@ -134,7 +134,7 @@ pass. I tightened that to an exact match.
 
 ## 8. Fail loudly, never degrade quietly
 
-The JD says "an agent that degrades quietly is worse than one that fails loudly". Three places
+An assistant that quietly gives a wrong answer is worse than one that fails loudly. Three places
 implement that here:
 
 - **Out-of-catalogue gate.** No known category and no known words means refuse ("we don't sell
@@ -180,8 +180,8 @@ on the same eval, prompt caching of the fixed system prompt, and shorter product
 ## 11. No framework (LangChain etc.)
 
 About 750 lines of plain Python for the assistant itself (`rag/`), plus about 800 for data and evals. Every stage is timed separately, can be swapped behind a small
-interface, and fits in my head. A framework would hide exactly the steps the JD asks about
-("work out why the wrong thing came back"). In a team I'd reconsider it for orchestration
+interface, and fits in my head. A framework would hide exactly the steps I wanted to debug
+(working out why the wrong thing came back). In a team I'd reconsider it for orchestration
 across several agents, but not for a single retrieval pipeline.
 
 ---

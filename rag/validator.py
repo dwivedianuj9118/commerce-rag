@@ -1,9 +1,7 @@
-"""Post-generation grounding check. Runs on every answer, whichever backend wrote it.
+"""Grounding check, runs on every answer.
 
-The generator is non-deterministic; this is not. Every claim we can check mechanically
-(product ids, prices, colours) is checked against the catalogue and against the cards
-the model was actually shown. A failed check is surfaced, logged and replaced by a safe
-answer: the system fails loudly rather than shipping a plausible-looking wrong price.
+Checks product ids, prices and colours in the text against the catalogue and the
+cards the model was given. If anything doesn't match, the caller falls back to a safe answer.
 """
 from __future__ import annotations
 

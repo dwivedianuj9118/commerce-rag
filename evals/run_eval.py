@@ -30,9 +30,7 @@ from rag.validator import validate
 ROOT = Path(__file__).resolve().parent.parent
 RESULTS = ROOT / "results"
 
-# Illustrative $/1M-token rates (Anthropic first-party list price for Claude Opus 5.5 at the
-# time of writing). Bedrock is priced separately by AWS: replace these with the current
-# rates from https://aws.amazon.com/bedrock/pricing/ before quoting a number.
+# example $ per 1M tokens. check https://aws.amazon.com/bedrock/pricing/ for actual bedrock rates
 PRICE_IN_PER_M = 4.00
 PRICE_OUT_PER_M = 20.00
 

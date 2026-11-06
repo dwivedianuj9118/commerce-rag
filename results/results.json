@@ -1,11 +1,11 @@
 {
  "meta": {
-  "when": "2026-09-29 12:48",
+  "when": "2026-11-06 09:19",
   "generator": "template",
   "embedder": "lsa",
   "n_products": 600,
   "n_skus": 7567,
-  "seconds": 22.1
+  "seconds": 42.7
  },
  "retrieval": {
   "A  BM25 only": {
@@ -414,50 +414,50 @@
  "cost": {
   "k=3": {
    "recall@3": 0.807,
-   "input_tokens_per_turn": 342,
+   "input_tokens_per_turn": 341,
    "output_tokens_per_turn": 71,
-   "usd_per_turn": 0.0028,
-   "usd_per_session": 0.00389,
-   "usd_per_1k_sessions": 3.89,
-   "latency_ms_p50": 2.88,
-   "latency_ms_p95": 3.59,
+   "usd_per_turn": 0.00278,
+   "usd_per_session": 0.00344,
+   "usd_per_1k_sessions": 3.44,
+   "latency_ms_p50": 6.5,
+   "latency_ms_p95": 7.53,
    "stage_ms_p50": {
-    "parse": 0.14,
-    "retrieve": 2.57,
-    "generate": 0.02,
-    "validate": 0.1
+    "parse": 3.29,
+    "retrieve": 2.69,
+    "generate": 0.03,
+    "validate": 0.36
    }
   },
   "k=5": {
    "recall@5": 0.836,
-   "input_tokens_per_turn": 416,
+   "input_tokens_per_turn": 414,
    "output_tokens_per_turn": 71,
-   "usd_per_turn": 0.00309,
-   "usd_per_session": 0.0043,
-   "usd_per_1k_sessions": 4.3,
-   "latency_ms_p50": 3.03,
-   "latency_ms_p95": 3.81,
+   "usd_per_turn": 0.00307,
+   "usd_per_session": 0.0038,
+   "usd_per_1k_sessions": 3.8,
+   "latency_ms_p50": 6.48,
+   "latency_ms_p95": 7.84,
    "stage_ms_p50": {
-    "parse": 0.14,
-    "retrieve": 2.73,
-    "generate": 0.02,
-    "validate": 0.11
+    "parse": 3.3,
+    "retrieve": 2.75,
+    "generate": 0.03,
+    "validate": 0.36
    }
   },
   "k=10": {
    "recall@10": 0.877,
-   "input_tokens_per_turn": 563,
+   "input_tokens_per_turn": 555,
    "output_tokens_per_turn": 71,
-   "usd_per_turn": 0.00368,
-   "usd_per_session": 0.00511,
-   "usd_per_1k_sessions": 5.11,
-   "latency_ms_p50": 3.02,
-   "latency_ms_p95": 3.69,
+   "usd_per_turn": 0.00363,
+   "usd_per_session": 0.00449,
+   "usd_per_1k_sessions": 4.49,
+   "latency_ms_p50": 6.63,
+   "latency_ms_p95": 7.9,
    "stage_ms_p50": {
-    "parse": 0.14,
-    "retrieve": 2.69,
-    "generate": 0.02,
-    "validate": 0.11
+    "parse": 3.3,
+    "retrieve": 2.85,
+    "generate": 0.03,
+    "validate": 0.35
    }
   }
  }

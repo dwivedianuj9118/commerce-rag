@@ -1,6 +1,6 @@
 # Evaluation report
 
-Generated 2026-09-29 12:48 · generator `template` · embedder `lsa` · 600 products / 7567 SKUs · eval wall time 22.1s
+Generated 2026-11-06 09:19 · generator `template` · embedder `lsa` · 600 products / 7567 SKUs · eval wall time 42.7s
 
 ## 1. Retrieval ablation (240 single-turn queries, top-10)
 
@@ -77,6 +77,6 @@ Token counts are estimates (~4 chars/token) of the prompt the Bedrock backend wo
 
 | k | recall@k | in tok/turn | out tok/turn | $/session | $/1k sessions | p50 ms | p95 ms |
 |---|---|---|---|---|---|---|---|
-| k=3 | 0.807 | 342 | 71 | 0.00389 | 3.89 | 2.88 | 3.59 |
-| k=5 | 0.836 | 416 | 71 | 0.0043 | 4.3 | 3.03 | 3.81 |
-| k=10 | 0.877 | 563 | 71 | 0.00511 | 5.11 | 3.02 | 3.69 |
+| k=3 | 0.807 | 341 | 71 | 0.00344 | 3.44 | 6.5 | 7.53 |
+| k=5 | 0.836 | 414 | 71 | 0.0038 | 3.8 | 6.48 | 7.84 |
+| k=10 | 0.877 | 555 | 71 | 0.00449 | 4.49 | 6.63 | 7.9 |
