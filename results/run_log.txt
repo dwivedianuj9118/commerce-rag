@@ -1,0 +1,40 @@
+building indexes...
+1. retrieval ablation
+  A  BM25 only                       {'recall@5': 0.218, 'recall@10': 0.247, 'ndcg@10': 0.219, 'mrr': 0.282, 'violations@5': 0.641, 'distinct_products_shown': 9.875, 'empty': 0.013, 'n': 240}
+  B  Dense only (LSA)                {'recall@5': 0.28, 'recall@10': 0.309, 'ndcg@10': 0.296, 'mrr': 0.41, 'violations@5': 0.607, 'distinct_products_shown': 9.875, 'empty': 0.013, 'n': 240}
+  C  Hybrid (RRF)                    {'recall@5': 0.267, 'recall@10': 0.31, 'ndcg@10': 0.284, 'mrr': 0.379, 'violations@5': 0.605, 'distinct_products_shown': 9.875, 'empty': 0.013, 'n': 240}
+  D  Hybrid + synonyms               {'recall@5': 0.329, 'recall@10': 0.391, 'ndcg@10': 0.337, 'mrr': 0.451, 'violations@5': 0.641, 'distinct_products_shown': 9.875, 'empty': 0.013, 'n': 240}
+  E  Hybrid + synonyms + filters     {'recall@5': 0.796, 'recall@10': 0.845, 'ndcg@10': 0.807, 'mrr': 0.817, 'violations@5': 0.0, 'distinct_products_shown': 7.596, 'empty': 0.013, 'n': 240}
+  X  SKU-level index (rejected)      {'recall@5': 0.232, 'recall@10': 0.199, 'ndcg@10': 0.22, 'mrr': 0.423, 'violations@5': 0.541, 'distinct_products_shown': 2.388, 'empty': 0.013, 'n': 240}
+2. multi-turn
+  stateful (carry constraints)       {'recall@5': 0.986, 'recall@10': 1.0, 'ndcg@10': 0.986, 'mrr': 0.989, 'violations@5': 0.0, 'distinct_products_shown': 4.067, 'empty': 0.0, 'n': 60}
+  stateless (last message only)      {'recall@5': 0.078, 'recall@10': 0.093, 'ndcg@10': 0.075, 'mrr': 0.09, 'violations@5': 0.96, 'distinct_products_shown': 10.0, 'empty': 0.0, 'n': 60}
+3. behaviour (v1 disclosure rule, kept for comparison)
+  out_of_catalogue_refusal_rate              0.944
+  false_refusal_rate_on_legit                0.01
+  foreign_brand_disclosed_and_on_category    1.0
+  impossible_no_match_rate                   1.0
+  impossible_products_shown                  0
+  spurious_disclosure_rate_on_legit          0.38
+3. behaviour
+  out_of_catalogue_refusal_rate              0.944
+  false_refusal_rate_on_legit                0.01
+  foreign_brand_disclosed_and_on_category    1.0
+  impossible_no_match_rate                   1.0
+  impossible_products_shown                  0
+  spurious_disclosure_rate_on_legit          0.01
+4. parser
+   {'category_accuracy': 1.0, 'colour_accuracy': 1.0, 'max_price_accuracy': 1.0, 'gender_accuracy': 1.0, 'all_fields_exact': 1.0}
+5. validator
+  clean_answers_passing (1 - false alarm rate) 1.0
+  n_clean                                    147
+  detect_fake_id                             1.0
+  detect_swap_to_uncited_real_product        1.0
+  detect_wrong_price                         1.0
+  detect_unavailable_colour                  1.0
+  detect_uncited_product_with_price          1.0
+6. cost
+  k=3: {'recall@3': 0.803, 'input_tokens_per_turn': 342, 'output_tokens_per_turn': 71, 'usd_per_turn': 0.0028, 'usd_per_session': 0.00389, 'usd_per_1k_sessions': 3.89, 'latency_ms_p50': 5.18, 'latency_ms_p95': 8.17, 'stage_ms_p50': {'parse': 0.22, 'retrieve': 4.7, 'generate': 0.05, 'validate': 0.16}}
+  k=5: {'recall@5': 0.834, 'input_tokens_per_turn': 416, 'output_tokens_per_turn': 71, 'usd_per_turn': 0.00309, 'usd_per_session': 0.0043, 'usd_per_1k_sessions': 4.3, 'latency_ms_p50': 5.75, 'latency_ms_p95': 8.09, 'stage_ms_p50': {'parse': 0.26, 'retrieve': 5.15, 'generate': 0.06, 'validate': 0.2}}
+  k=10: {'recall@10': 0.876, 'input_tokens_per_turn': 563, 'output_tokens_per_turn': 71, 'usd_per_turn': 0.00368, 'usd_per_session': 0.00512, 'usd_per_1k_sessions': 5.12, 'latency_ms_p50': 5.27, 'latency_ms_p95': 7.57, 'stage_ms_p50': {'parse': 0.22, 'retrieve': 4.74, 'generate': 0.05, 'validate': 0.17}}
+done in 38.2s -> results/report.md

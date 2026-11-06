@@ -1,0 +1,464 @@
+{
+ "meta": {
+  "when": "2026-09-29 12:48",
+  "generator": "template",
+  "embedder": "lsa",
+  "n_products": 600,
+  "n_skus": 7567,
+  "seconds": 22.1
+ },
+ "retrieval": {
+  "A  BM25 only": {
+   "all": {
+    "recall@5": 0.214,
+    "recall@10": 0.242,
+    "ndcg@10": 0.216,
+    "mrr": 0.278,
+    "violations@5": 0.644,
+    "distinct_products_shown": 9.875,
+    "empty": 0.013,
+    "n": 240
+   },
+   "seen_phrasing": {
+    "recall@5": 0.237,
+    "recall@10": 0.275,
+    "ndcg@10": 0.238,
+    "mrr": 0.286,
+    "violations@5": 0.617,
+    "distinct_products_shown": 10.0,
+    "empty": 0.0,
+    "n": 95
+   },
+   "heldout_phrasing": {
+    "recall@5": 0.18,
+    "recall@10": 0.21,
+    "ndcg@10": 0.182,
+    "mrr": 0.24,
+    "violations@5": 0.618,
+    "distinct_products_shown": 9.709,
+    "empty": 0.029,
+    "n": 103
+   },
+   "vague_no_category": {
+    "recall@5": 0.121,
+    "recall@10": 0.12,
+    "ndcg@10": 0.164,
+    "mrr": 0.221,
+    "violations@5": 0.371,
+    "distinct_products_shown": 9.423,
+    "empty": 0.058,
+    "n": 52
+   }
+  },
+  "B  Dense only (LSA)": {
+   "all": {
+    "recall@5": 0.28,
+    "recall@10": 0.309,
+    "ndcg@10": 0.296,
+    "mrr": 0.41,
+    "violations@5": 0.607,
+    "distinct_products_shown": 9.875,
+    "empty": 0.013,
+    "n": 240
+   },
+   "seen_phrasing": {
+    "recall@5": 0.276,
+    "recall@10": 0.331,
+    "ndcg@10": 0.285,
+    "mrr": 0.37,
+    "violations@5": 0.617,
+    "distinct_products_shown": 10.0,
+    "empty": 0.0,
+    "n": 95
+   },
+   "heldout_phrasing": {
+    "recall@5": 0.22,
+    "recall@10": 0.245,
+    "ndcg@10": 0.251,
+    "mrr": 0.384,
+    "violations@5": 0.602,
+    "distinct_products_shown": 9.709,
+    "empty": 0.029,
+    "n": 103
+   },
+   "vague_no_category": {
+    "recall@5": 0.174,
+    "recall@10": 0.15,
+    "ndcg@10": 0.214,
+    "mrr": 0.353,
+    "violations@5": 0.461,
+    "distinct_products_shown": 9.423,
+    "empty": 0.058,
+    "n": 52
+   }
+  },
+  "C  Hybrid (RRF)": {
+   "all": {
+    "recall@5": 0.255,
+    "recall@10": 0.31,
+    "ndcg@10": 0.284,
+    "mrr": 0.378,
+    "violations@5": 0.61,
+    "distinct_products_shown": 9.875,
+    "empty": 0.013,
+    "n": 240
+   },
+   "seen_phrasing": {
+    "recall@5": 0.282,
+    "recall@10": 0.341,
+    "ndcg@10": 0.303,
+    "mrr": 0.397,
+    "violations@5": 0.587,
+    "distinct_products_shown": 10.0,
+    "empty": 0.0,
+    "n": 95
+   },
+   "heldout_phrasing": {
+    "recall@5": 0.204,
+    "recall@10": 0.264,
+    "ndcg@10": 0.241,
+    "mrr": 0.323,
+    "violations@5": 0.594,
+    "distinct_products_shown": 9.709,
+    "empty": 0.029,
+    "n": 103
+   },
+   "vague_no_category": {
+    "recall@5": 0.173,
+    "recall@10": 0.157,
+    "ndcg@10": 0.205,
+    "mrr": 0.304,
+    "violations@5": 0.392,
+    "distinct_products_shown": 9.423,
+    "empty": 0.058,
+    "n": 52
+   }
+  },
+  "D  Hybrid + synonyms": {
+   "all": {
+    "recall@5": 0.318,
+    "recall@10": 0.392,
+    "ndcg@10": 0.335,
+    "mrr": 0.446,
+    "violations@5": 0.648,
+    "distinct_products_shown": 9.875,
+    "empty": 0.013,
+    "n": 240
+   },
+   "seen_phrasing": {
+    "recall@5": 0.442,
+    "recall@10": 0.548,
+    "ndcg@10": 0.435,
+    "mrr": 0.57,
+    "violations@5": 0.684,
+    "distinct_products_shown": 10.0,
+    "empty": 0.0,
+    "n": 95
+   },
+   "heldout_phrasing": {
+    "recall@5": 0.204,
+    "recall@10": 0.264,
+    "ndcg@10": 0.24,
+    "mrr": 0.323,
+    "violations@5": 0.592,
+    "distinct_products_shown": 9.709,
+    "empty": 0.029,
+    "n": 103
+   },
+   "vague_no_category": {
+    "recall@5": 0.269,
+    "recall@10": 0.321,
+    "ndcg@10": 0.307,
+    "mrr": 0.464,
+    "violations@5": 0.473,
+    "distinct_products_shown": 9.423,
+    "empty": 0.058,
+    "n": 52
+   }
+  },
+  "E  Hybrid + synonyms + filters": {
+   "all": {
+    "recall@5": 0.799,
+    "recall@10": 0.846,
+    "ndcg@10": 0.807,
+    "mrr": 0.816,
+    "violations@5": 0.0,
+    "distinct_products_shown": 7.596,
+    "empty": 0.013,
+    "n": 240
+   },
+   "seen_phrasing": {
+    "recall@5": 0.932,
+    "recall@10": 0.972,
+    "ndcg@10": 0.961,
+    "mrr": 0.96,
+    "violations@5": 0.0,
+    "distinct_products_shown": 7.853,
+    "empty": 0.0,
+    "n": 95
+   },
+   "heldout_phrasing": {
+    "recall@5": 0.594,
+    "recall@10": 0.667,
+    "ndcg@10": 0.587,
+    "mrr": 0.607,
+    "violations@5": 0.0,
+    "distinct_products_shown": 7.544,
+    "empty": 0.029,
+    "n": 103
+   },
+   "vague_no_category": {
+    "recall@5": 0.575,
+    "recall@10": 0.587,
+    "ndcg@10": 0.62,
+    "mrr": 0.643,
+    "violations@5": 0.0,
+    "distinct_products_shown": 9.423,
+    "empty": 0.058,
+    "n": 52
+   }
+  },
+  "X  SKU-level index (rejected)": {
+   "all": {
+    "recall@5": 0.232,
+    "recall@10": 0.199,
+    "ndcg@10": 0.224,
+    "mrr": 0.438,
+    "violations@5": 0.534,
+    "distinct_products_shown": 2.442,
+    "empty": 0.013,
+    "n": 240
+   },
+   "seen_phrasing": {
+    "recall@5": 0.329,
+    "recall@10": 0.29,
+    "ndcg@10": 0.295,
+    "mrr": 0.568,
+    "violations@5": 0.527,
+    "distinct_products_shown": 2.463,
+    "empty": 0.0,
+    "n": 95
+   },
+   "heldout_phrasing": {
+    "recall@5": 0.138,
+    "recall@10": 0.118,
+    "ndcg@10": 0.149,
+    "mrr": 0.276,
+    "violations@5": 0.516,
+    "distinct_products_shown": 2.301,
+    "empty": 0.029,
+    "n": 103
+   },
+   "vague_no_category": {
+    "recall@5": 0.218,
+    "recall@10": 0.162,
+    "ndcg@10": 0.205,
+    "mrr": 0.513,
+    "violations@5": 0.299,
+    "distinct_products_shown": 2.25,
+    "empty": 0.058,
+    "n": 52
+   }
+  }
+ },
+ "multiturn": {
+  "stateful (carry constraints)": {
+   "recall@5": 0.986,
+   "recall@10": 1.0,
+   "ndcg@10": 0.986,
+   "mrr": 0.989,
+   "violations@5": 0.0,
+   "distinct_products_shown": 4.067,
+   "empty": 0.0,
+   "n": 60
+  },
+  "stateless (last message only)": {
+   "recall@5": 0.082,
+   "recall@10": 0.097,
+   "ndcg@10": 0.084,
+   "mrr": 0.103,
+   "violations@5": 0.96,
+   "distinct_products_shown": 10.0,
+   "empty": 0.0,
+   "n": 60
+  }
+ },
+ "behaviour_v1_any_unknown": {
+  "out_of_catalogue_refusal_rate": 0.944,
+  "missed_out_of_catalogue": [
+   "do you sell a laptop?"
+  ],
+  "false_refusal_rate_on_legit": 0.01,
+  "false_refusals": [
+   "looking for chilled something for a birthday bash",
+   "low-key something for my friend's nuptials under \u00a3120",
+   "looking for a bit punk something for client meetings under \u00a3350"
+  ],
+  "foreign_brand_disclosed_and_on_category": 1.0,
+  "impossible_no_match_rate": 1.0,
+  "impossible_products_shown": 0,
+  "spurious_disclosure_rate_on_legit": 0.38,
+  "spurious_disclosure_examples": [
+   [
+    "I need black jumper for a romantic evening under \u00a3200",
+    [
+     "romantic",
+     "evening"
+    ]
+   ],
+   [
+    "any Scandi-style dress for my nine-to-five?",
+    [
+     "scandi-style",
+     "nine-to-five"
+    ]
+   ],
+   [
+    "any blue loafers for my friend's nuptials under \u00a3170?",
+    [
+     "friend's",
+     "nuptials"
+    ]
+   ],
+   [
+    "looking for athleisure sweater under \u00a370",
+    [
+     "athleisure"
+    ]
+   ],
+   [
+    "can you find me women's grey pumps for new year's eve under \u00a3160",
+    [
+     "year's",
+     "eve"
+    ]
+   ],
+   [
+    "women's black button-down for my friend's nuptials under \u00a390",
+    [
+     "friend's",
+     "nuptials"
+    ]
+   ],
+   [
+    "any old-school elegant stilettos for a birthday bash?",
+    [
+     "old-school",
+     "elegant",
+     "birthday",
+     "bash"
+    ]
+   ],
+   [
+    "any old-school elegant sweaters?",
+    [
+     "old-school",
+     "elegant"
+    ]
+   ]
+  ]
+ },
+ "behaviour": {
+  "out_of_catalogue_refusal_rate": 0.944,
+  "missed_out_of_catalogue": [
+   "do you sell a laptop?"
+  ],
+  "false_refusal_rate_on_legit": 0.01,
+  "false_refusals": [
+   "looking for chilled something for a birthday bash",
+   "low-key something for my friend's nuptials under \u00a3120",
+   "looking for a bit punk something for client meetings under \u00a3350"
+  ],
+  "foreign_brand_disclosed_and_on_category": 1.0,
+  "impossible_no_match_rate": 1.0,
+  "impossible_products_shown": 0,
+  "spurious_disclosure_rate_on_legit": 0.01,
+  "spurious_disclosure_examples": [
+   [
+    "any Scandi-style dress for my nine-to-five?",
+    [
+     "Scandi-style"
+    ]
+   ],
+   [
+    "any Scandi-style beige kicks?",
+    [
+     "Scandi-style"
+    ]
+   ],
+   [
+    "any Scandi-style blouse for a summer ceremony under \u00a3110?",
+    [
+     "Scandi-style"
+    ]
+   ]
+  ]
+ },
+ "parser": {
+  "category_accuracy": 1.0,
+  "colour_accuracy": 1.0,
+  "max_price_accuracy": 1.0,
+  "gender_accuracy": 1.0,
+  "all_fields_exact": 1.0,
+  "errors": []
+ },
+ "validator": {
+  "clean_answers_passing (1 - false alarm rate)": 1.0,
+  "n_clean": 147,
+  "detect_fake_id": 1.0,
+  "detect_swap_to_uncited_real_product": 1.0,
+  "detect_wrong_price": 1.0,
+  "detect_unavailable_colour": 1.0,
+  "detect_uncited_product_with_price": 1.0
+ },
+ "cost": {
+  "k=3": {
+   "recall@3": 0.807,
+   "input_tokens_per_turn": 342,
+   "output_tokens_per_turn": 71,
+   "usd_per_turn": 0.0028,
+   "usd_per_session": 0.00389,
+   "usd_per_1k_sessions": 3.89,
+   "latency_ms_p50": 2.88,
+   "latency_ms_p95": 3.59,
+   "stage_ms_p50": {
+    "parse": 0.14,
+    "retrieve": 2.57,
+    "generate": 0.02,
+    "validate": 0.1
+   }
+  },
+  "k=5": {
+   "recall@5": 0.836,
+   "input_tokens_per_turn": 416,
+   "output_tokens_per_turn": 71,
+   "usd_per_turn": 0.00309,
+   "usd_per_session": 0.0043,
+   "usd_per_1k_sessions": 4.3,
+   "latency_ms_p50": 3.03,
+   "latency_ms_p95": 3.81,
+   "stage_ms_p50": {
+    "parse": 0.14,
+    "retrieve": 2.73,
+    "generate": 0.02,
+    "validate": 0.11
+   }
+  },
+  "k=10": {
+   "recall@10": 0.877,
+   "input_tokens_per_turn": 563,
+   "output_tokens_per_turn": 71,
+   "usd_per_turn": 0.00368,
+   "usd_per_session": 0.00511,
+   "usd_per_1k_sessions": 5.11,
+   "latency_ms_p50": 3.02,
+   "latency_ms_p95": 3.69,
+   "stage_ms_p50": {
+    "parse": 0.14,
+    "retrieve": 2.69,
+    "generate": 0.02,
+    "validate": 0.11
+   }
+  }
+ }
+}

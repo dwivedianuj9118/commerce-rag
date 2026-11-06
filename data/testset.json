@@ -1,0 +1,9660 @@
+{
+ "single": [
+  {
+   "id": "S000",
+   "type": "single",
+   "turns": [
+    "I need casual watch under \u00a3240"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 240.0
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0016": 2,
+    "P0096": 2,
+    "P0160": 2,
+    "P0208": 2,
+    "P0304": 2,
+    "P0336": 2,
+    "P0368": 2,
+    "P0448": 2,
+    "P0496": 2
+   }
+  },
+  {
+   "id": "S001",
+   "type": "single",
+   "turns": [
+    "I need black jumper for a romantic evening under \u00a3200"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "colour": "black",
+    "max_price": 200.0
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0088": 2,
+    "P0168": 2,
+    "P0200": 2,
+    "P0312": 2,
+    "P0328": 2,
+    "P0552": 2
+   }
+  },
+  {
+   "id": "S002",
+   "type": "single",
+   "turns": [
+    "t-shirt for the gym under \u00a390"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "max_price": 90.0
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0003": 2,
+    "P0035": 2,
+    "P0147": 2,
+    "P0195": 2,
+    "P0211": 2,
+    "P0259": 2,
+    "P0275": 2,
+    "P0307": 2,
+    "P0323": 2,
+    "P0339": 2,
+    "P0355": 2,
+    "P0371": 2,
+    "P0403": 2,
+    "P0419": 2,
+    "P0435": 2,
+    "P0451": 2,
+    "P0467": 2,
+    "P0499": 2
+   }
+  },
+  {
+   "id": "S003",
+   "type": "single",
+   "turns": [
+    "any Scandi-style dress for my nine-to-five?"
+   ],
+   "hard": {
+    "category": "dress"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "minimalist"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0033": 1,
+    "P0049": 1,
+    "P0065": 1,
+    "P0129": 1,
+    "P0145": 1,
+    "P0177": 1,
+    "P0209": 2,
+    "P0241": 2,
+    "P0273": 1,
+    "P0321": 1,
+    "P0369": 1,
+    "P0417": 2,
+    "P0465": 1,
+    "P0561": 1
+   }
+  },
+  {
+   "id": "S004",
+   "type": "single",
+   "turns": [
+    "can you find me olive trousers under \u00a370"
+   ],
+   "hard": {
+    "category": "trousers",
+    "colour": "olive",
+    "max_price": 70.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0005": 2,
+    "P0069": 2,
+    "P0149": 2
+   }
+  },
+  {
+   "id": "S005",
+   "type": "single",
+   "turns": [
+    "any blue loafers for my friend's nuptials under \u00a3170?"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "blue",
+    "max_price": 170.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0204": 2,
+    "P0252": 2,
+    "P0588": 2
+   }
+  },
+  {
+   "id": "S006",
+   "type": "single",
+   "turns": [
+    "can you find me edgy cream t-shirt for the gym under \u00a340"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "colour": "cream",
+    "max_price": 40.0
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "edgy"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0003": 1,
+    "P0499": 2
+   }
+  },
+  {
+   "id": "S007",
+   "type": "single",
+   "turns": [
+    "hippie-ish black something for drinks on Friday night"
+   ],
+   "hard": {
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0011": 1,
+    "P0020": 1,
+    "P0021": 1,
+    "P0038": 2,
+    "P0064": 1,
+    "P0084": 2,
+    "P0088": 1,
+    "P0089": 1,
+    "P0132": 1,
+    "P0144": 1,
+    "P0150": 1,
+    "P0153": 1,
+    "P0168": 2,
+    "P0170": 1,
+    "P0191": 1,
+    "P0194": 1,
+    "P0200": 1,
+    "P0205": 1,
+    "P0228": 1,
+    "P0235": 1,
+    "P0237": 1,
+    "P0250": 2,
+    "P0259": 1,
+    "P0267": 2,
+    "P0312": 2,
+    "P0314": 1,
+    "P0328": 2,
+    "P0333": 1,
+    "P0340": 1,
+    "P0356": 2,
+    "P0388": 1,
+    "P0402": 1,
+    "P0411": 1,
+    "P0436": 1,
+    "P0444": 1,
+    "P0451": 1,
+    "P0467": 1,
+    "P0481": 1,
+    "P0500": 1,
+    "P0509": 1,
+    "P0514": 1,
+    "P0531": 1,
+    "P0532": 2,
+    "P0545": 2,
+    "P0552": 1,
+    "P0557": 1,
+    "P0560": 1,
+    "P0568": 1,
+    "P0585": 1
+   }
+  },
+  {
+   "id": "S008",
+   "type": "single",
+   "turns": [
+    "can you find me boho boot for my husband for hiking under \u00a3330"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 330.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "hiking",
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0010": 2,
+    "P0026": 1,
+    "P0042": 1,
+    "P0106": 1,
+    "P0122": 1,
+    "P0154": 1,
+    "P0250": 1,
+    "P0394": 2,
+    "P0410": 1,
+    "P0474": 2,
+    "P0506": 2,
+    "P0586": 1
+   }
+  },
+  {
+   "id": "S009",
+   "type": "single",
+   "turns": [
+    "can you find me brown something for my friend's nuptials"
+   ],
+   "hard": {
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0101": 2,
+    "P0139": 2,
+    "P0188": 2,
+    "P0252": 2,
+    "P0315": 2,
+    "P0368": 2,
+    "P0395": 2,
+    "P0411": 2,
+    "P0422": 2,
+    "P0437": 2,
+    "P0485": 2,
+    "P0524": 2,
+    "P0539": 2,
+    "P0588": 2
+   }
+  },
+  {
+   "id": "S010",
+   "type": "single",
+   "turns": [
+    "any boot for everyday wear?"
+   ],
+   "hard": {
+    "category": "boots"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0026": 2,
+    "P0058": 2,
+    "P0138": 2,
+    "P0154": 2,
+    "P0186": 2,
+    "P0202": 2,
+    "P0250": 2,
+    "P0266": 2,
+    "P0298": 2,
+    "P0330": 2,
+    "P0346": 2,
+    "P0490": 2
+   }
+  },
+  {
+   "id": "S011",
+   "type": "single",
+   "turns": [
+    "looking for athleisure sweater under \u00a370"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 70.0
+   },
+   "soft": {
+    "style": "sporty"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0216": 2,
+    "P0264": 2
+   }
+  },
+  {
+   "id": "S012",
+   "type": "single",
+   "turns": [
+    "looking for minimal olive something for a beach holiday under \u00a360"
+   ],
+   "hard": {
+    "colour": "olive",
+    "max_price": 60.0
+   },
+   "soft": {
+    "occasion": "beach holiday",
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0005": 1,
+    "P0029": 1,
+    "P0205": 1,
+    "P0209": 2,
+    "P0243": 1,
+    "P0371": 1,
+    "P0450": 1,
+    "P0483": 1
+   }
+  },
+  {
+   "id": "S013",
+   "type": "single",
+   "turns": [
+    "bag under \u00a3220"
+   ],
+   "hard": {
+    "category": "handbag",
+    "max_price": 220.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0030": 2,
+    "P0046": 2,
+    "P0062": 2,
+    "P0078": 2,
+    "P0110": 2,
+    "P0142": 2,
+    "P0158": 2,
+    "P0174": 2,
+    "P0206": 2,
+    "P0222": 2,
+    "P0270": 2,
+    "P0286": 2,
+    "P0334": 2,
+    "P0350": 2,
+    "P0366": 2,
+    "P0382": 2,
+    "P0446": 2,
+    "P0462": 2,
+    "P0478": 2,
+    "P0494": 2,
+    "P0510": 2,
+    "P0526": 2,
+    "P0558": 2,
+    "P0574": 2,
+    "P0590": 2
+   }
+  },
+  {
+   "id": "S014",
+   "type": "single",
+   "turns": [
+    "casual green t-shirts under \u00a330"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "colour": "green",
+    "max_price": 30.0
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0035": 2,
+    "P0403": 2,
+    "P0547": 2
+   }
+  },
+  {
+   "id": "S015",
+   "type": "single",
+   "turns": [
+    "can you find me women's grey pumps for new year's eve under \u00a3160"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "grey",
+    "max_price": 160.0,
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "party"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0523": 2,
+    "P0587": 2
+   }
+  },
+  {
+   "id": "S016",
+   "type": "single",
+   "turns": [
+    "any pants for my husband under \u00a3150?"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 150.0,
+    "gender": "men"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0037": 2,
+    "P0053": 2,
+    "P0069": 2,
+    "P0085": 2,
+    "P0117": 2,
+    "P0197": 2,
+    "P0213": 2,
+    "P0245": 2,
+    "P0261": 2,
+    "P0325": 2,
+    "P0357": 2,
+    "P0389": 2,
+    "P0421": 2,
+    "P0469": 2,
+    "P0485": 2,
+    "P0501": 2,
+    "P0533": 2,
+    "P0565": 2,
+    "P0581": 2
+   }
+  },
+  {
+   "id": "S017",
+   "type": "single",
+   "turns": [
+    "women's black button-down for my friend's nuptials under \u00a390"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "black",
+    "max_price": 90.0,
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0498": 2
+   }
+  },
+  {
+   "id": "S018",
+   "type": "single",
+   "turns": [
+    "looking for blue something for hiking"
+   ],
+   "hard": {
+    "colour": "blue"
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0010": 2,
+    "P0207": 2,
+    "P0282": 2,
+    "P0294": 2,
+    "P0327": 2,
+    "P0474": 2,
+    "P0522": 2,
+    "P0551": 2,
+    "P0554": 2
+   }
+  },
+  {
+   "id": "S019",
+   "type": "single",
+   "turns": [
+    "looking for pink something for drinks on Friday night under \u00a3270"
+   ],
+   "hard": {
+    "colour": "pink",
+    "max_price": 270.0
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0004": 2,
+    "P0033": 2,
+    "P0050": 2,
+    "P0104": 2,
+    "P0123": 2,
+    "P0194": 2,
+    "P0312": 2,
+    "P0314": 2,
+    "P0315": 2,
+    "P0369": 2,
+    "P0388": 2,
+    "P0475": 2,
+    "P0502": 2,
+    "P0514": 2,
+    "P0548": 2,
+    "P0578": 2,
+    "P0580": 2,
+    "P0598": 2
+   }
+  },
+  {
+   "id": "S020",
+   "type": "single",
+   "turns": [
+    "can you find me grey something for the gym"
+   ],
+   "hard": {
+    "colour": "grey"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0005": 2,
+    "P0025": 2,
+    "P0105": 2,
+    "P0176": 2,
+    "P0217": 2,
+    "P0275": 2,
+    "P0313": 2,
+    "P0323": 2,
+    "P0435": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0505": 2,
+    "P0553": 2,
+    "P0565": 2
+   }
+  },
+  {
+   "id": "S021",
+   "type": "single",
+   "turns": [
+    "any old-school elegant stilettos for a birthday bash?"
+   ],
+   "hard": {
+    "category": "heels"
+   },
+   "soft": {
+    "occasion": "party",
+    "style": "classic"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0011": 1,
+    "P0043": 1,
+    "P0059": 1,
+    "P0075": 1,
+    "P0091": 1,
+    "P0123": 1,
+    "P0219": 1,
+    "P0235": 1,
+    "P0363": 2,
+    "P0427": 1,
+    "P0475": 1,
+    "P0523": 1,
+    "P0571": 1,
+    "P0587": 1
+   }
+  },
+  {
+   "id": "S022",
+   "type": "single",
+   "turns": [
+    "looking for timepiece for my husband under \u00a3720"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 720.0,
+    "gender": "men"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0064": 2,
+    "P0080": 2,
+    "P0096": 2,
+    "P0112": 2,
+    "P0160": 2,
+    "P0176": 2,
+    "P0192": 2,
+    "P0208": 2,
+    "P0240": 2,
+    "P0256": 2,
+    "P0272": 2,
+    "P0304": 2,
+    "P0320": 2,
+    "P0368": 2,
+    "P0384": 2,
+    "P0416": 2,
+    "P0432": 2,
+    "P0448": 2,
+    "P0480": 2,
+    "P0496": 2,
+    "P0512": 2,
+    "P0528": 2,
+    "P0560": 2,
+    "P0592": 2
+   }
+  },
+  {
+   "id": "S023",
+   "type": "single",
+   "turns": [
+    "any old-school elegant sweaters?"
+   ],
+   "hard": {
+    "category": "knitwear"
+   },
+   "soft": {
+    "style": "classic"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0040": 2,
+    "P0072": 2,
+    "P0232": 2,
+    "P0360": 2,
+    "P0392": 2,
+    "P0424": 2,
+    "P0472": 2,
+    "P0536": 2,
+    "P0552": 2
+   }
+  },
+  {
+   "id": "S024",
+   "type": "single",
+   "turns": [
+    "I need jackets for a dinner date"
+   ],
+   "hard": {
+    "category": "jacket"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0006": 2,
+    "P0022": 2,
+    "P0038": 2,
+    "P0054": 2,
+    "P0102": 2,
+    "P0134": 2,
+    "P0150": 2,
+    "P0214": 2,
+    "P0246": 2,
+    "P0326": 2,
+    "P0390": 2,
+    "P0406": 2,
+    "P0502": 2,
+    "P0582": 2,
+    "P0598": 2
+   }
+  },
+  {
+   "id": "S025",
+   "type": "single",
+   "turns": [
+    "I need something that won't date stilettos"
+   ],
+   "hard": {
+    "category": "heels"
+   },
+   "soft": {
+    "style": "classic"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0043": 2,
+    "P0219": 2,
+    "P0363": 2
+   }
+  },
+  {
+   "id": "S026",
+   "type": "single",
+   "turns": [
+    "can you find me white coat for my husband under \u00a3190"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "white",
+    "max_price": 190.0,
+    "gender": "men"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0039": 2,
+    "P0135": 2,
+    "P0151": 2,
+    "P0263": 2,
+    "P0375": 2,
+    "P0583": 2
+   }
+  },
+  {
+   "id": "S027",
+   "type": "single",
+   "turns": [
+    "can you find me grey sneakers under \u00a3280"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "grey",
+    "max_price": 280.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0025": 2,
+    "P0105": 2,
+    "P0217": 2,
+    "P0313": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0505": 2,
+    "P0553": 2
+   }
+  },
+  {
+   "id": "S028",
+   "type": "single",
+   "turns": [
+    "any minimal cream daypack?"
+   ],
+   "hard": {
+    "category": "backpack",
+    "colour": "cream"
+   },
+   "soft": {
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0079": 2,
+    "P0383": 2
+   }
+  },
+  {
+   "id": "S029",
+   "type": "single",
+   "turns": [
+    "looking for women's pumps under \u00a3110"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 110.0,
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0123": 2,
+    "P0251": 2,
+    "P0283": 2,
+    "P0299": 2,
+    "P0411": 2,
+    "P0443": 2,
+    "P0523": 2,
+    "P0555": 2
+   }
+  },
+  {
+   "id": "S030",
+   "type": "single",
+   "turns": [
+    "looking for brown something for a wedding"
+   ],
+   "hard": {
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0101": 2,
+    "P0139": 2,
+    "P0188": 2,
+    "P0252": 2,
+    "P0315": 2,
+    "P0368": 2,
+    "P0395": 2,
+    "P0411": 2,
+    "P0422": 2,
+    "P0437": 2,
+    "P0485": 2,
+    "P0524": 2,
+    "P0539": 2,
+    "P0588": 2
+   }
+  },
+  {
+   "id": "S031",
+   "type": "single",
+   "turns": [
+    "can you find me boots under \u00a3200"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 200.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0026": 2,
+    "P0042": 2,
+    "P0138": 2,
+    "P0154": 2,
+    "P0170": 2,
+    "P0186": 2,
+    "P0202": 2,
+    "P0250": 2,
+    "P0266": 2,
+    "P0298": 2,
+    "P0314": 2,
+    "P0330": 2,
+    "P0346": 2,
+    "P0362": 2,
+    "P0378": 2,
+    "P0410": 2,
+    "P0458": 2,
+    "P0474": 2,
+    "P0554": 2
+   }
+  },
+  {
+   "id": "S032",
+   "type": "single",
+   "turns": [
+    "looking for beige timepiece for the office under \u00a3110"
+   ],
+   "hard": {
+    "category": "watch",
+    "colour": "beige",
+    "max_price": 110.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0448": 2
+   }
+  },
+  {
+   "id": "S033",
+   "type": "single",
+   "turns": [
+    "looking for brown jeans for my wife"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "brown",
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0004": 2,
+    "P0356": 2,
+    "P0500": 2
+   }
+  },
+  {
+   "id": "S034",
+   "type": "single",
+   "turns": [
+    "can you find me edgy brown heels"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "brown"
+   },
+   "soft": {
+    "style": "edgy"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0091": 2,
+    "P0539": 2
+   }
+  },
+  {
+   "id": "S035",
+   "type": "single",
+   "turns": [
+    "looking for chilled something for a birthday bash"
+   ],
+   "hard": {},
+   "soft": {
+    "occasion": "party",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0002": 1,
+    "P0005": 1,
+    "P0007": 1,
+    "P0008": 1,
+    "P0011": 1,
+    "P0014": 1,
+    "P0016": 1,
+    "P0017": 1,
+    "P0024": 1,
+    "P0029": 1,
+    "P0030": 1,
+    "P0033": 1,
+    "P0035": 1,
+    "P0036": 1,
+    "P0037": 1,
+    "P0045": 1,
+    "P0046": 1,
+    "P0049": 1,
+    "P0054": 1,
+    "P0055": 1,
+    "P0059": 1,
+    "P0060": 1,
+    "P0063": 1,
+    "P0075": 1,
+    "P0078": 1,
+    "P0079": 1,
+    "P0081": 1,
+    "P0086": 1,
+    "P0087": 1,
+    "P0090": 1,
+    "P0091": 1,
+    "P0094": 1,
+    "P0095": 1,
+    "P0096": 1,
+    "P0105": 1,
+    "P0107": 1,
+    "P0110": 2,
+    "P0117": 1,
+    "P0120": 1,
+    "P0121": 1,
+    "P0122": 1,
+    "P0123": 1,
+    "P0125": 1,
+    "P0126": 1,
+    "P0127": 1,
+    "P0131": 1,
+    "P0133": 1,
+    "P0137": 1,
+    "P0138": 1,
+    "P0141": 1,
+    "P0145": 1,
+    "P0148": 1,
+    "P0150": 1,
+    "P0151": 1,
+    "P0152": 1,
+    "P0158": 2,
+    "P0160": 1,
+    "P0161": 1,
+    "P0162": 1,
+    "P0165": 1,
+    "P0166": 1,
+    "P0170": 1,
+    "P0175": 1,
+    "P0177": 1,
+    "P0186": 1,
+    "P0190": 1,
+    "P0192": 1,
+    "P0194": 1,
+    "P0196": 1,
+    "P0197": 1,
+    "P0203": 1,
+    "P0204": 1,
+    "P0206": 2,
+    "P0208": 1,
+    "P0210": 1,
+    "P0211": 1,
+    "P0215": 1,
+    "P0220": 1,
+    "P0226": 1,
+    "P0227": 1,
+    "P0229": 1,
+    "P0235": 1,
+    "P0240": 1,
+    "P0247": 1,
+    "P0248": 1,
+    "P0252": 1,
+    "P0253": 1,
+    "P0254": 1,
+    "P0255": 1,
+    "P0260": 1,
+    "P0261": 1,
+    "P0262": 1,
+    "P0263": 1,
+    "P0264": 1,
+    "P0266": 1,
+    "P0269": 1,
+    "P0270": 2,
+    "P0275": 1,
+    "P0276": 1,
+    "P0280": 1,
+    "P0283": 1,
+    "P0286": 2,
+    "P0289": 2,
+    "P0290": 1,
+    "P0292": 1,
+    "P0294": 1,
+    "P0299": 1,
+    "P0302": 2,
+    "P0304": 1,
+    "P0311": 1,
+    "P0313": 1,
+    "P0321": 1,
+    "P0325": 1,
+    "P0327": 1,
+    "P0332": 1,
+    "P0333": 1,
+    "P0334": 1,
+    "P0336": 1,
+    "P0340": 1,
+    "P0341": 1,
+    "P0346": 1,
+    "P0356": 1,
+    "P0358": 1,
+    "P0359": 1,
+    "P0361": 1,
+    "P0362": 1,
+    "P0363": 1,
+    "P0365": 1,
+    "P0366": 2,
+    "P0367": 1,
+    "P0368": 1,
+    "P0373": 1,
+    "P0379": 1,
+    "P0382": 1,
+    "P0383": 1,
+    "P0386": 1,
+    "P0393": 1,
+    "P0395": 1,
+    "P0396": 1,
+    "P0397": 1,
+    "P0400": 1,
+    "P0401": 1,
+    "P0403": 1,
+    "P0405": 1,
+    "P0407": 1,
+    "P0410": 1,
+    "P0413": 1,
+    "P0418": 1,
+    "P0421": 1,
+    "P0424": 1,
+    "P0427": 2,
+    "P0428": 1,
+    "P0434": 1,
+    "P0437": 1,
+    "P0440": 1,
+    "P0442": 1,
+    "P0443": 1,
+    "P0446": 1,
+    "P0447": 1,
+    "P0448": 1,
+    "P0449": 1,
+    "P0455": 1,
+    "P0469": 1,
+    "P0470": 1,
+    "P0473": 1,
+    "P0475": 2,
+    "P0477": 1,
+    "P0478": 1,
+    "P0480": 1,
+    "P0482": 1,
+    "P0485": 1,
+    "P0486": 1,
+    "P0488": 1,
+    "P0490": 1,
+    "P0492": 1,
+    "P0494": 2,
+    "P0496": 1,
+    "P0497": 1,
+    "P0498": 1,
+    "P0499": 1,
+    "P0501": 1,
+    "P0502": 1,
+    "P0510": 1,
+    "P0514": 1,
+    "P0517": 1,
+    "P0520": 1,
+    "P0522": 1,
+    "P0523": 2,
+    "P0528": 1,
+    "P0530": 1,
+    "P0534": 1,
+    "P0535": 1,
+    "P0540": 1,
+    "P0541": 1,
+    "P0542": 2,
+    "P0543": 1,
+    "P0547": 1,
+    "P0549": 1,
+    "P0558": 1,
+    "P0561": 1,
+    "P0563": 1,
+    "P0567": 1,
+    "P0571": 2,
+    "P0573": 1,
+    "P0575": 1,
+    "P0577": 1,
+    "P0578": 1,
+    "P0579": 1,
+    "P0580": 1,
+    "P0587": 1,
+    "P0588": 1,
+    "P0589": 1,
+    "P0593": 1,
+    "P0595": 1
+   }
+  },
+  {
+   "id": "S036",
+   "type": "single",
+   "turns": [
+    "casual pink blouse under \u00a3110"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "pink",
+    "max_price": 110.0
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0162": 2,
+    "P0194": 2,
+    "P0226": 2,
+    "P0386": 2,
+    "P0482": 2,
+    "P0514": 2,
+    "P0578": 2
+   }
+  },
+  {
+   "id": "S037",
+   "type": "single",
+   "turns": [
+    "any Scandi-style beige kicks?"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "beige"
+   },
+   "soft": {
+    "style": "minimalist"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0441": 2,
+    "P0569": 2
+   }
+  },
+  {
+   "id": "S038",
+   "type": "single",
+   "turns": [
+    "can you find me grey denims for my wife for a dinner date"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "grey",
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0084": 2,
+    "P0196": 2,
+    "P0596": 2
+   }
+  },
+  {
+   "id": "S039",
+   "type": "single",
+   "turns": [
+    "women's chilled blue heels for my nine-to-five"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "blue",
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0043": 1,
+    "P0219": 1,
+    "P0283": 1,
+    "P0379": 2,
+    "P0571": 1
+   }
+  },
+  {
+   "id": "S040",
+   "type": "single",
+   "turns": [
+    "I need tote under \u00a3140"
+   ],
+   "hard": {
+    "category": "handbag",
+    "max_price": 140.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0030": 2,
+    "P0062": 2,
+    "P0078": 2,
+    "P0110": 2,
+    "P0142": 2,
+    "P0158": 2,
+    "P0222": 2,
+    "P0286": 2,
+    "P0366": 2,
+    "P0446": 2,
+    "P0510": 2,
+    "P0526": 2,
+    "P0590": 2
+   }
+  },
+  {
+   "id": "S041",
+   "type": "single",
+   "turns": [
+    "Scandi-style navy blazer under \u00a3380"
+   ],
+   "hard": {
+    "category": "jacket",
+    "colour": "navy",
+    "max_price": 380.0
+   },
+   "soft": {
+    "style": "minimalist"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0118": 2
+   }
+  },
+  {
+   "id": "S042",
+   "type": "single",
+   "turns": [
+    "any rugged jeans under \u00a370?"
+   ],
+   "hard": {
+    "category": "jeans",
+    "max_price": 70.0
+   },
+   "soft": {
+    "style": "outdoor"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0564": 2
+   }
+  },
+  {
+   "id": "S043",
+   "type": "single",
+   "turns": [
+    "any denims for lazy weekends under \u00a3140?"
+   ],
+   "hard": {
+    "category": "jeans",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0004": 2,
+    "P0020": 2,
+    "P0036": 2,
+    "P0052": 2,
+    "P0132": 2,
+    "P0148": 2,
+    "P0164": 2,
+    "P0260": 2,
+    "P0292": 2,
+    "P0308": 2,
+    "P0324": 2,
+    "P0356": 2,
+    "P0372": 2,
+    "P0388": 2,
+    "P0404": 2,
+    "P0420": 2,
+    "P0452": 2,
+    "P0484": 2,
+    "P0500": 2,
+    "P0516": 2,
+    "P0532": 2,
+    "P0548": 2,
+    "P0564": 2
+   }
+  },
+  {
+   "id": "S044",
+   "type": "single",
+   "turns": [
+    "any women's pants?"
+   ],
+   "hard": {
+    "category": "trousers",
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0005": 2,
+    "P0021": 2,
+    "P0101": 2,
+    "P0133": 2,
+    "P0149": 2,
+    "P0165": 2,
+    "P0181": 2,
+    "P0229": 2,
+    "P0277": 2,
+    "P0309": 2,
+    "P0341": 2,
+    "P0373": 2,
+    "P0405": 2,
+    "P0437": 2,
+    "P0453": 2,
+    "P0517": 2,
+    "P0549": 2,
+    "P0597": 2
+   }
+  },
+  {
+   "id": "S045",
+   "type": "single",
+   "turns": [
+    "looking for pink parka for a long trek"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0055": 2,
+    "P0103": 2,
+    "P0471": 2
+   }
+  },
+  {
+   "id": "S046",
+   "type": "single",
+   "turns": [
+    "can you find me men's casual brown loafer for work under \u00a3120"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "brown",
+    "max_price": 120.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0252": 2
+   }
+  },
+  {
+   "id": "S047",
+   "type": "single",
+   "turns": [
+    "can you find me festival vibe crossbody"
+   ],
+   "hard": {
+    "category": "handbag"
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0014": 2,
+    "P0126": 2,
+    "P0158": 2,
+    "P0174": 2,
+    "P0190": 2,
+    "P0222": 2,
+    "P0270": 2,
+    "P0334": 2,
+    "P0414": 2,
+    "P0462": 2,
+    "P0478": 2
+   }
+  },
+  {
+   "id": "S048",
+   "type": "single",
+   "turns": [
+    "can you find me watch for a wedding under \u00a3140"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0272": 2,
+    "P0368": 2,
+    "P0448": 2,
+    "P0544": 2,
+    "P0576": 2
+   }
+  },
+  {
+   "id": "S049",
+   "type": "single",
+   "turns": [
+    "pink kicks for my husband for spin class under \u00a3170"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "pink",
+    "max_price": 170.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0105": 2,
+    "P0249": 2,
+    "P0281": 2,
+    "P0537": 2
+   }
+  },
+  {
+   "id": "S050",
+   "type": "single",
+   "turns": [
+    "pink pumps"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "pink"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0011": 2,
+    "P0123": 2,
+    "P0171": 2,
+    "P0219": 2,
+    "P0315": 2,
+    "P0379": 2,
+    "P0475": 2,
+    "P0507": 2,
+    "P0539": 2
+   }
+  },
+  {
+   "id": "S051",
+   "type": "single",
+   "turns": [
+    "any Scandi-style blouse for a summer ceremony under \u00a3110?"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 110.0
+   },
+   "soft": {
+    "occasion": "wedding",
+    "style": "minimalist"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0034": 1,
+    "P0098": 1,
+    "P0178": 1,
+    "P0210": 1,
+    "P0226": 1,
+    "P0242": 1,
+    "P0274": 1,
+    "P0290": 1,
+    "P0418": 1,
+    "P0434": 1,
+    "P0450": 1,
+    "P0482": 1,
+    "P0498": 1,
+    "P0546": 1,
+    "P0562": 2,
+    "P0594": 1
+   }
+  },
+  {
+   "id": "S052",
+   "type": "single",
+   "turns": [
+    "can you find me women's boho brown stilettos"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "brown",
+    "gender": "women"
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0139": 2,
+    "P0315": 2,
+    "P0507": 2
+   }
+  },
+  {
+   "id": "S053",
+   "type": "single",
+   "turns": [
+    "I need handbags under \u00a360"
+   ],
+   "hard": {
+    "category": "handbag",
+    "max_price": 60.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0286": 2,
+    "P0510": 2
+   }
+  },
+  {
+   "id": "S054",
+   "type": "single",
+   "turns": [
+    "can you find me something for the gym under \u00a340"
+   ],
+   "hard": {
+    "max_price": 40.0
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0003": 2,
+    "P0035": 2,
+    "P0137": 2,
+    "P0211": 2,
+    "P0259": 2,
+    "P0275": 2,
+    "P0307": 2,
+    "P0323": 2,
+    "P0325": 2,
+    "P0355": 2,
+    "P0371": 2,
+    "P0403": 2,
+    "P0435": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0499": 2,
+    "P0537": 2
+   }
+  },
+  {
+   "id": "S055",
+   "type": "single",
+   "turns": [
+    "I need chilled white something for lounging by the pool under \u00a340"
+   ],
+   "hard": {
+    "colour": "white",
+    "max_price": 40.0
+   },
+   "soft": {
+    "occasion": "beach holiday",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0109": 1,
+    "P0131": 2,
+    "P0179": 1,
+    "P0227": 2,
+    "P0269": 2,
+    "P0387": 1,
+    "P0403": 1,
+    "P0473": 1,
+    "P0514": 1,
+    "P0515": 1
+   }
+  },
+  {
+   "id": "S056",
+   "type": "single",
+   "turns": [
+    "any classic green something for the gym under \u00a3140?"
+   ],
+   "hard": {
+    "colour": "green",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0009": 1,
+    "P0035": 1,
+    "P0037": 1,
+    "P0041": 1,
+    "P0047": 1,
+    "P0148": 1,
+    "P0173": 1,
+    "P0179": 1,
+    "P0217": 2,
+    "P0233": 1,
+    "P0265": 1,
+    "P0281": 2,
+    "P0371": 1,
+    "P0373": 1,
+    "P0389": 1,
+    "P0403": 1,
+    "P0432": 1,
+    "P0445": 1,
+    "P0493": 1,
+    "P0526": 1,
+    "P0533": 2,
+    "P0548": 1,
+    "P0565": 1
+   }
+  },
+  {
+   "id": "S057",
+   "type": "single",
+   "turns": [
+    "olive coat for lazy weekends under \u00a3210"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "olive",
+    "max_price": 210.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0199": 2,
+    "P0535": 2
+   }
+  },
+  {
+   "id": "S058",
+   "type": "single",
+   "turns": [
+    "looking for white denims for a dinner date under \u00a3100"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "white",
+    "max_price": 100.0
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0004": 2,
+    "P0132": 2
+   }
+  },
+  {
+   "id": "S059",
+   "type": "single",
+   "turns": [
+    "can you find me tough enough for bad weather tan cardigan for my nine-to-five under \u00a370"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "colour": "tan",
+    "max_price": 70.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "outdoor"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0184": 2
+   }
+  },
+  {
+   "id": "S060",
+   "type": "single",
+   "turns": [
+    "any trainer under \u00a3100?"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 100.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0009": 2,
+    "P0041": 2,
+    "P0057": 2,
+    "P0137": 2,
+    "P0217": 2,
+    "P0233": 2,
+    "P0313": 2,
+    "P0361": 2,
+    "P0377": 2,
+    "P0393": 2,
+    "P0409": 2,
+    "P0425": 2,
+    "P0457": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0521": 2,
+    "P0537": 2,
+    "P0569": 2,
+    "P0585": 2
+   }
+  },
+  {
+   "id": "S061",
+   "type": "single",
+   "turns": [
+    "any heels for a romantic evening under \u00a3180?"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 180.0
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0107": 2,
+    "P0123": 2,
+    "P0187": 2,
+    "P0251": 2,
+    "P0267": 2,
+    "P0411": 2,
+    "P0443": 2,
+    "P0475": 2
+   }
+  },
+  {
+   "id": "S062",
+   "type": "single",
+   "turns": [
+    "any casual black slides?"
+   ],
+   "hard": {
+    "category": "sandals",
+    "colour": "black"
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0333": 2,
+    "P0413": 2,
+    "P0541": 2
+   }
+  },
+  {
+   "id": "S063",
+   "type": "single",
+   "turns": [
+    "can you find me women's brown sliders under \u00a350"
+   ],
+   "hard": {
+    "category": "sandals",
+    "colour": "brown",
+    "max_price": 50.0,
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0253": 2,
+    "P0269": 2,
+    "P0413": 2
+   }
+  },
+  {
+   "id": "S064",
+   "type": "single",
+   "turns": [
+    "any classic something for a dinner date under \u00a3120?"
+   ],
+   "hard": {
+    "max_price": 120.0
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0001": 1,
+    "P0002": 1,
+    "P0004": 2,
+    "P0008": 1,
+    "P0009": 1,
+    "P0018": 2,
+    "P0019": 1,
+    "P0020": 1,
+    "P0022": 2,
+    "P0024": 1,
+    "P0033": 1,
+    "P0037": 1,
+    "P0040": 1,
+    "P0042": 1,
+    "P0047": 1,
+    "P0050": 2,
+    "P0065": 1,
+    "P0067": 1,
+    "P0068": 2,
+    "P0076": 1,
+    "P0077": 1,
+    "P0078": 1,
+    "P0082": 1,
+    "P0083": 1,
+    "P0097": 2,
+    "P0104": 1,
+    "P0114": 1,
+    "P0120": 1,
+    "P0123": 1,
+    "P0125": 1,
+    "P0132": 1,
+    "P0148": 1,
+    "P0150": 1,
+    "P0159": 1,
+    "P0161": 1,
+    "P0163": 1,
+    "P0164": 1,
+    "P0168": 1,
+    "P0169": 1,
+    "P0170": 1,
+    "P0173": 1,
+    "P0178": 1,
+    "P0179": 1,
+    "P0187": 1,
+    "P0189": 1,
+    "P0194": 1,
+    "P0196": 1,
+    "P0199": 1,
+    "P0211": 1,
+    "P0217": 1,
+    "P0225": 1,
+    "P0243": 1,
+    "P0246": 1,
+    "P0251": 1,
+    "P0258": 1,
+    "P0276": 2,
+    "P0277": 1,
+    "P0280": 1,
+    "P0281": 1,
+    "P0285": 1,
+    "P0287": 1,
+    "P0303": 1,
+    "P0305": 1,
+    "P0308": 1,
+    "P0312": 1,
+    "P0319": 1,
+    "P0322": 1,
+    "P0323": 1,
+    "P0339": 1,
+    "P0340": 1,
+    "P0342": 1,
+    "P0349": 1,
+    "P0353": 1,
+    "P0354": 1,
+    "P0356": 1,
+    "P0360": 1,
+    "P0368": 1,
+    "P0372": 1,
+    "P0385": 1,
+    "P0388": 2,
+    "P0393": 1,
+    "P0411": 1,
+    "P0424": 2,
+    "P0431": 1,
+    "P0435": 1,
+    "P0443": 1,
+    "P0445": 1,
+    "P0450": 1,
+    "P0451": 1,
+    "P0466": 1,
+    "P0472": 1,
+    "P0493": 1,
+    "P0495": 1,
+    "P0500": 1,
+    "P0514": 1,
+    "P0525": 1,
+    "P0526": 1,
+    "P0529": 2,
+    "P0530": 1,
+    "P0532": 1,
+    "P0533": 1,
+    "P0536": 2,
+    "P0545": 1,
+    "P0548": 2,
+    "P0563": 1,
+    "P0578": 1,
+    "P0580": 1,
+    "P0595": 1,
+    "P0600": 1
+   }
+  },
+  {
+   "id": "S065",
+   "type": "single",
+   "turns": [
+    "can you find me ivy league look trousers under \u00a340"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 40.0
+   },
+   "soft": {
+    "style": "preppy"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0085": 2
+   }
+  },
+  {
+   "id": "S066",
+   "type": "single",
+   "turns": [
+    "classic knit for everyday wear"
+   ],
+   "hard": {
+    "category": "knitwear"
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0040": 2,
+    "P0072": 1,
+    "P0088": 1,
+    "P0136": 1,
+    "P0216": 1,
+    "P0232": 2,
+    "P0248": 1,
+    "P0344": 1,
+    "P0360": 2,
+    "P0392": 1,
+    "P0408": 1,
+    "P0424": 2,
+    "P0440": 1,
+    "P0456": 1,
+    "P0472": 2,
+    "P0536": 1,
+    "P0552": 1,
+    "P0600": 1
+   }
+  },
+  {
+   "id": "S067",
+   "type": "single",
+   "turns": [
+    "any red sliders for lazy weekends under \u00a3150?"
+   ],
+   "hard": {
+    "category": "sandals",
+    "colour": "red",
+    "max_price": 150.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0013": 2,
+    "P0109": 2,
+    "P0221": 2,
+    "P0237": 2,
+    "P0509": 2,
+    "P0589": 2
+   }
+  },
+  {
+   "id": "S068",
+   "type": "single",
+   "turns": [
+    "trainers for everyday wear under \u00a3140"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0009": 2,
+    "P0041": 2,
+    "P0057": 2,
+    "P0073": 2,
+    "P0137": 2,
+    "P0169": 2,
+    "P0185": 2,
+    "P0217": 2,
+    "P0233": 2,
+    "P0249": 2,
+    "P0265": 2,
+    "P0313": 2,
+    "P0345": 2,
+    "P0361": 2,
+    "P0377": 2,
+    "P0393": 2,
+    "P0409": 2,
+    "P0425": 2,
+    "P0441": 2,
+    "P0457": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0553": 2,
+    "P0569": 2,
+    "P0585": 2
+   }
+  },
+  {
+   "id": "S069",
+   "type": "single",
+   "turns": [
+    "any men's old-school elegant sneakers for lifting weights under \u00a3130?"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 130.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "classic"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0009": 1,
+    "P0185": 1,
+    "P0217": 2,
+    "P0249": 1,
+    "P0281": 2,
+    "P0393": 2,
+    "P0425": 1,
+    "P0457": 1,
+    "P0489": 1,
+    "P0521": 1,
+    "P0537": 1,
+    "P0553": 1,
+    "P0569": 1
+   }
+  },
+  {
+   "id": "S070",
+   "type": "single",
+   "turns": [
+    "looking for minimal green something for a beach holiday under \u00a350"
+   ],
+   "hard": {
+    "colour": "green",
+    "max_price": 50.0
+   },
+   "soft": {
+    "occasion": "beach holiday",
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0035": 1,
+    "P0093": 2,
+    "P0179": 1,
+    "P0371": 1,
+    "P0387": 1,
+    "P0493": 1,
+    "P0541": 1
+   }
+  },
+  {
+   "id": "S071",
+   "type": "single",
+   "turns": [
+    "tan loafers for my nine-to-five under \u00a3140"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "tan",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0108": 2,
+    "P0268": 2,
+    "P0396": 2,
+    "P0412": 2
+   }
+  },
+  {
+   "id": "S072",
+   "type": "single",
+   "turns": [
+    "looking for black blouse under \u00a390"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "black",
+    "max_price": 90.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0194": 2,
+    "P0402": 2,
+    "P0498": 2,
+    "P0514": 2
+   }
+  },
+  {
+   "id": "S073",
+   "type": "single",
+   "turns": [
+    "I need olive jeans for running errands under \u00a3130"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "olive",
+    "max_price": 130.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0036": 2,
+    "P0164": 2,
+    "P0260": 2,
+    "P0372": 2
+   }
+  },
+  {
+   "id": "S074",
+   "type": "single",
+   "turns": [
+    "looking for olive loafer for a wedding under \u00a3240"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "olive",
+    "max_price": 240.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0060": 2,
+    "P0076": 2,
+    "P0140": 2,
+    "P0204": 2,
+    "P0268": 2
+   }
+  },
+  {
+   "id": "S075",
+   "type": "single",
+   "turns": [
+    "I need white overcoat for my husband"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "white",
+    "gender": "men"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0039": 2,
+    "P0135": 2,
+    "P0151": 2,
+    "P0263": 2,
+    "P0375": 2,
+    "P0535": 2,
+    "P0583": 2
+   }
+  },
+  {
+   "id": "S076",
+   "type": "single",
+   "turns": [
+    "looking for navy denims for a dinner date"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "navy"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0004": 2,
+    "P0132": 2,
+    "P0468": 2,
+    "P0500": 2,
+    "P0596": 2
+   }
+  },
+  {
+   "id": "S077",
+   "type": "single",
+   "turns": [
+    "looking for festival vibe loafers under \u00a3250"
+   ],
+   "hard": {
+    "category": "loafers",
+    "max_price": 250.0
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0108": 2,
+    "P0220": 2,
+    "P0316": 2,
+    "P0444": 2
+   }
+  },
+  {
+   "id": "S078",
+   "type": "single",
+   "turns": [
+    "looking for casual green something for everyday wear under \u00a340"
+   ],
+   "hard": {
+    "colour": "green",
+    "max_price": 40.0
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0035": 1,
+    "P0274": 1,
+    "P0387": 1,
+    "P0403": 2,
+    "P0493": 1,
+    "P0514": 2,
+    "P0541": 2,
+    "P0547": 2
+   }
+  },
+  {
+   "id": "S079",
+   "type": "single",
+   "turns": [
+    "any black flip flops for lazy weekends under \u00a350?"
+   ],
+   "hard": {
+    "category": "sandals",
+    "colour": "black",
+    "max_price": 50.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0205": 2,
+    "P0333": 2,
+    "P0413": 2,
+    "P0429": 2,
+    "P0525": 2,
+    "P0541": 2
+   }
+  },
+  {
+   "id": "S080",
+   "type": "single",
+   "turns": [
+    "can you find me boho flip flops for a beach holiday under \u00a3120"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 120.0
+   },
+   "soft": {
+    "occasion": "beach holiday",
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0029": 1,
+    "P0045": 2,
+    "P0061": 1,
+    "P0093": 1,
+    "P0109": 2,
+    "P0125": 1,
+    "P0141": 1,
+    "P0157": 2,
+    "P0189": 1,
+    "P0205": 2,
+    "P0237": 1,
+    "P0253": 1,
+    "P0269": 1,
+    "P0285": 1,
+    "P0301": 1,
+    "P0317": 1,
+    "P0333": 2,
+    "P0349": 1,
+    "P0365": 1,
+    "P0429": 1,
+    "P0445": 2,
+    "P0477": 1,
+    "P0493": 1,
+    "P0509": 2,
+    "P0541": 1,
+    "P0589": 1
+   }
+  },
+  {
+   "id": "S081",
+   "type": "single",
+   "turns": [
+    "can you find me athleisure boot for my wife"
+   ],
+   "hard": {
+    "category": "boots",
+    "gender": "women"
+   },
+   "soft": {
+    "style": "sporty"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0186": 2,
+    "P0330": 2
+   }
+  },
+  {
+   "id": "S082",
+   "type": "single",
+   "turns": [
+    "boho boot for the office under \u00a3210"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 210.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0026": 2,
+    "P0074": 2,
+    "P0154": 1,
+    "P0250": 1,
+    "P0314": 1,
+    "P0330": 1,
+    "P0362": 1,
+    "P0378": 2,
+    "P0410": 1,
+    "P0458": 2,
+    "P0474": 1
+   }
+  },
+  {
+   "id": "S083",
+   "type": "single",
+   "turns": [
+    "I need hippie-ish white something for lazy weekends under \u00a3140"
+   ],
+   "hard": {
+    "colour": "white",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0004": 2,
+    "P0009": 1,
+    "P0021": 1,
+    "P0029": 1,
+    "P0041": 1,
+    "P0057": 1,
+    "P0085": 1,
+    "P0109": 2,
+    "P0115": 1,
+    "P0131": 1,
+    "P0132": 1,
+    "P0159": 1,
+    "P0185": 1,
+    "P0188": 1,
+    "P0217": 1,
+    "P0229": 1,
+    "P0237": 2,
+    "P0246": 1,
+    "P0250": 2,
+    "P0272": 1,
+    "P0287": 1,
+    "P0312": 1,
+    "P0360": 1,
+    "P0375": 1,
+    "P0387": 1,
+    "P0403": 1,
+    "P0418": 1,
+    "P0419": 1,
+    "P0467": 1,
+    "P0473": 1,
+    "P0509": 2,
+    "P0514": 1,
+    "P0515": 2,
+    "P0532": 2,
+    "P0569": 1
+   }
+  },
+  {
+   "id": "S084",
+   "type": "single",
+   "turns": [
+    "any classic black button-up for work?"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0402": 1,
+    "P0466": 2
+   }
+  },
+  {
+   "id": "S085",
+   "type": "single",
+   "turns": [
+    "frock for drinks on Friday night under \u00a3240"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 240.0
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0017": 2,
+    "P0033": 2,
+    "P0097": 2,
+    "P0161": 2,
+    "P0193": 2,
+    "P0225": 2,
+    "P0273": 2,
+    "P0305": 2,
+    "P0369": 2,
+    "P0385": 2,
+    "P0449": 2,
+    "P0481": 2,
+    "P0513": 2,
+    "P0529": 2,
+    "P0545": 2
+   }
+  },
+  {
+   "id": "S086",
+   "type": "single",
+   "turns": [
+    "classic daypack for the office"
+   ],
+   "hard": {
+    "category": "backpack"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0015": 1,
+    "P0031": 2,
+    "P0047": 2,
+    "P0079": 1,
+    "P0095": 1,
+    "P0127": 1,
+    "P0143": 1,
+    "P0159": 2,
+    "P0175": 1,
+    "P0191": 1,
+    "P0223": 1,
+    "P0271": 1,
+    "P0287": 2,
+    "P0303": 1,
+    "P0319": 1,
+    "P0335": 1,
+    "P0383": 1,
+    "P0431": 2,
+    "P0495": 2,
+    "P0511": 1,
+    "P0559": 1,
+    "P0591": 1
+   }
+  },
+  {
+   "id": "S087",
+   "type": "single",
+   "turns": [
+    "burgundy boots for a romantic evening under \u00a3210"
+   ],
+   "hard": {
+    "category": "boots",
+    "colour": "burgundy",
+    "max_price": 210.0
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0154": 2,
+    "P0186": 2
+   }
+  },
+  {
+   "id": "S088",
+   "type": "single",
+   "turns": [
+    "looking for boho navy sweaters for my wife"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "colour": "navy",
+    "gender": "women"
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0136": 2,
+    "P0328": 2
+   }
+  },
+  {
+   "id": "S089",
+   "type": "single",
+   "turns": [
+    "can you find me grey something for running errands under \u00a390"
+   ],
+   "hard": {
+    "colour": "grey",
+    "max_price": 90.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0034": 2,
+    "P0061": 2,
+    "P0077": 2,
+    "P0082": 2,
+    "P0199": 2,
+    "P0253": 2,
+    "P0274": 2,
+    "P0292": 2,
+    "P0313": 2,
+    "P0323": 2,
+    "P0344": 2,
+    "P0365": 2,
+    "P0388": 2,
+    "P0404": 2,
+    "P0424": 2,
+    "P0429": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0525": 2,
+    "P0531": 2,
+    "P0565": 2,
+    "P0575": 2
+   }
+  },
+  {
+   "id": "S090",
+   "type": "single",
+   "turns": [
+    "can you find me casual burgundy trainer for the gym"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0025": 1,
+    "P0089": 1,
+    "P0329": 1,
+    "P0361": 2,
+    "P0473": 2,
+    "P0537": 1
+   }
+  },
+  {
+   "id": "S091",
+   "type": "single",
+   "turns": [
+    "low-key something for my friend's nuptials under \u00a3120"
+   ],
+   "hard": {
+    "max_price": 120.0
+   },
+   "soft": {
+    "occasion": "wedding",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0002": 1,
+    "P0005": 2,
+    "P0007": 1,
+    "P0008": 1,
+    "P0024": 1,
+    "P0029": 1,
+    "P0033": 1,
+    "P0034": 1,
+    "P0035": 1,
+    "P0036": 1,
+    "P0037": 1,
+    "P0045": 1,
+    "P0049": 1,
+    "P0063": 1,
+    "P0076": 1,
+    "P0078": 1,
+    "P0079": 1,
+    "P0097": 1,
+    "P0098": 1,
+    "P0110": 1,
+    "P0117": 2,
+    "P0120": 1,
+    "P0125": 1,
+    "P0131": 1,
+    "P0133": 1,
+    "P0137": 1,
+    "P0141": 1,
+    "P0145": 2,
+    "P0148": 1,
+    "P0150": 1,
+    "P0156": 1,
+    "P0161": 1,
+    "P0162": 1,
+    "P0165": 1,
+    "P0170": 1,
+    "P0175": 1,
+    "P0177": 1,
+    "P0181": 1,
+    "P0187": 1,
+    "P0188": 1,
+    "P0194": 1,
+    "P0196": 1,
+    "P0197": 1,
+    "P0210": 2,
+    "P0211": 1,
+    "P0220": 2,
+    "P0226": 2,
+    "P0227": 1,
+    "P0229": 1,
+    "P0242": 1,
+    "P0248": 1,
+    "P0252": 2,
+    "P0253": 1,
+    "P0255": 1,
+    "P0261": 1,
+    "P0262": 2,
+    "P0264": 1,
+    "P0268": 1,
+    "P0269": 1,
+    "P0272": 1,
+    "P0274": 1,
+    "P0275": 1,
+    "P0276": 1,
+    "P0277": 1,
+    "P0280": 1,
+    "P0283": 2,
+    "P0284": 1,
+    "P0286": 1,
+    "P0290": 2,
+    "P0292": 1,
+    "P0294": 2,
+    "P0299": 2,
+    "P0305": 1,
+    "P0309": 1,
+    "P0313": 1,
+    "P0325": 1,
+    "P0333": 1,
+    "P0336": 1,
+    "P0340": 1,
+    "P0342": 1,
+    "P0346": 1,
+    "P0356": 1,
+    "P0361": 1,
+    "P0365": 1,
+    "P0367": 1,
+    "P0368": 2,
+    "P0373": 1,
+    "P0386": 1,
+    "P0393": 1,
+    "P0397": 1,
+    "P0403": 1,
+    "P0410": 1,
+    "P0411": 1,
+    "P0413": 1,
+    "P0418": 2,
+    "P0421": 2,
+    "P0424": 1,
+    "P0433": 1,
+    "P0434": 2,
+    "P0437": 2,
+    "P0443": 2,
+    "P0446": 1,
+    "P0447": 1,
+    "P0448": 2,
+    "P0455": 1,
+    "P0473": 1,
+    "P0477": 1,
+    "P0482": 2,
+    "P0486": 1,
+    "P0488": 1,
+    "P0492": 1,
+    "P0496": 1,
+    "P0498": 2,
+    "P0499": 1,
+    "P0501": 1,
+    "P0514": 1,
+    "P0517": 2,
+    "P0523": 1,
+    "P0530": 1,
+    "P0534": 2,
+    "P0540": 1,
+    "P0541": 1,
+    "P0546": 1,
+    "P0547": 1,
+    "P0549": 1,
+    "P0555": 1,
+    "P0561": 1,
+    "P0562": 1,
+    "P0563": 1,
+    "P0573": 1,
+    "P0575": 1,
+    "P0576": 1,
+    "P0577": 2,
+    "P0578": 1,
+    "P0579": 1,
+    "P0580": 1,
+    "P0589": 1,
+    "P0594": 1,
+    "P0595": 1
+   }
+  },
+  {
+   "id": "S092",
+   "type": "single",
+   "turns": [
+    "pants under \u00a3100"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 100.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0005": 2,
+    "P0021": 2,
+    "P0037": 2,
+    "P0069": 2,
+    "P0085": 2,
+    "P0117": 2,
+    "P0133": 2,
+    "P0149": 2,
+    "P0165": 2,
+    "P0197": 2,
+    "P0213": 2,
+    "P0229": 2,
+    "P0245": 2,
+    "P0325": 2,
+    "P0357": 2,
+    "P0373": 2,
+    "P0389": 2,
+    "P0453": 2,
+    "P0501": 2,
+    "P0517": 2,
+    "P0533": 2,
+    "P0549": 2,
+    "P0565": 2,
+    "P0581": 2,
+    "P0597": 2
+   }
+  },
+  {
+   "id": "S093",
+   "type": "single",
+   "turns": [
+    "I need pink something for my friend's nuptials under \u00a3120"
+   ],
+   "hard": {
+    "colour": "pink",
+    "max_price": 120.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0034": 2,
+    "P0156": 2,
+    "P0226": 2,
+    "P0242": 2,
+    "P0368": 2,
+    "P0482": 2
+   }
+  },
+  {
+   "id": "S094",
+   "type": "single",
+   "turns": [
+    "I need men's blazer for hiking"
+   ],
+   "hard": {
+    "category": "jacket",
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0070": 2,
+    "P0118": 2,
+    "P0214": 2,
+    "P0294": 2,
+    "P0454": 2,
+    "P0470": 2,
+    "P0486": 2,
+    "P0550": 2
+   }
+  },
+  {
+   "id": "S095",
+   "type": "single",
+   "turns": [
+    "looking for athleisure white pumps under \u00a390"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "white",
+    "max_price": 90.0
+   },
+   "soft": {
+    "style": "sporty"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0523": 2
+   }
+  },
+  {
+   "id": "S096",
+   "type": "single",
+   "turns": [
+    "any women's minimal loafers for everyday wear?"
+   ],
+   "hard": {
+    "category": "loafers",
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0044": 2,
+    "P0140": 2,
+    "P0172": 1,
+    "P0300": 1,
+    "P0332": 1,
+    "P0348": 1,
+    "P0492": 1,
+    "P0508": 1,
+    "P0540": 1
+   }
+  },
+  {
+   "id": "S097",
+   "type": "single",
+   "turns": [
+    "any old-school elegant tees?"
+   ],
+   "hard": {
+    "category": "t-shirt"
+   },
+   "soft": {
+    "style": "classic"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0019": 2,
+    "P0067": 2,
+    "P0083": 2,
+    "P0163": 2,
+    "P0179": 2,
+    "P0211": 2,
+    "P0243": 2,
+    "P0323": 2,
+    "P0339": 2,
+    "P0435": 2,
+    "P0451": 2,
+    "P0563": 2,
+    "P0595": 2
+   }
+  },
+  {
+   "id": "S098",
+   "type": "single",
+   "turns": [
+    "can you find me black trainers for the gym"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0089": 2,
+    "P0377": 2
+   }
+  },
+  {
+   "id": "S099",
+   "type": "single",
+   "turns": [
+    "looking for tough enough for bad weather jackets for a summer ceremony under \u00a3180"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 180.0
+   },
+   "soft": {
+    "occasion": "wedding",
+    "style": "outdoor"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0086": 1,
+    "P0150": 1,
+    "P0182": 2,
+    "P0262": 1,
+    "P0294": 1,
+    "P0342": 1,
+    "P0358": 1,
+    "P0390": 1,
+    "P0470": 1,
+    "P0534": 1
+   }
+  },
+  {
+   "id": "S100",
+   "type": "single",
+   "turns": [
+    "minimal red backpack for hiking"
+   ],
+   "hard": {
+    "category": "backpack",
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "hiking",
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0239": 2,
+    "P0271": 2,
+    "P0399": 1,
+    "P0479": 2
+   }
+  },
+  {
+   "id": "S101",
+   "type": "single",
+   "turns": [
+    "looking for a bit punk jeans for drinks on Friday night"
+   ],
+   "hard": {
+    "category": "jeans"
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "edgy"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0004": 1,
+    "P0020": 2,
+    "P0052": 1,
+    "P0068": 1,
+    "P0084": 1,
+    "P0132": 1,
+    "P0164": 1,
+    "P0196": 1,
+    "P0212": 1,
+    "P0228": 1,
+    "P0276": 1,
+    "P0308": 1,
+    "P0340": 1,
+    "P0356": 1,
+    "P0372": 2,
+    "P0388": 1,
+    "P0436": 1,
+    "P0468": 1,
+    "P0484": 1,
+    "P0500": 1,
+    "P0532": 1,
+    "P0548": 1,
+    "P0580": 1,
+    "P0596": 2
+   }
+  },
+  {
+   "id": "S102",
+   "type": "single",
+   "turns": [
+    "can you find me casual brown something for work under \u00a3350"
+   ],
+   "hard": {
+    "colour": "brown",
+    "max_price": 350.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0007": 2,
+    "P0017": 1,
+    "P0024": 2,
+    "P0028": 1,
+    "P0049": 2,
+    "P0056": 1,
+    "P0069": 1,
+    "P0072": 1,
+    "P0074": 1,
+    "P0085": 1,
+    "P0131": 1,
+    "P0137": 1,
+    "P0146": 1,
+    "P0150": 1,
+    "P0160": 1,
+    "P0166": 2,
+    "P0199": 1,
+    "P0208": 1,
+    "P0219": 1,
+    "P0223": 1,
+    "P0227": 1,
+    "P0229": 2,
+    "P0247": 2,
+    "P0252": 2,
+    "P0253": 1,
+    "P0269": 1,
+    "P0296": 1,
+    "P0311": 1,
+    "P0313": 1,
+    "P0332": 2,
+    "P0336": 2,
+    "P0356": 1,
+    "P0368": 2,
+    "P0386": 2,
+    "P0395": 2,
+    "P0410": 2,
+    "P0413": 1,
+    "P0437": 1,
+    "P0442": 2,
+    "P0449": 1,
+    "P0475": 1,
+    "P0485": 2,
+    "P0487": 1,
+    "P0492": 1,
+    "P0501": 1,
+    "P0507": 1,
+    "P0539": 1,
+    "P0561": 2,
+    "P0563": 1,
+    "P0566": 1,
+    "P0581": 1,
+    "P0588": 1,
+    "P0589": 1,
+    "P0595": 1
+   }
+  },
+  {
+   "id": "S103",
+   "type": "single",
+   "turns": [
+    "can you find me ivy league look tan something for lifting weights under \u00a350"
+   ],
+   "hard": {
+    "colour": "tan",
+    "max_price": 50.0
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "preppy"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0035": 1,
+    "P0245": 2
+   }
+  },
+  {
+   "id": "S104",
+   "type": "single",
+   "turns": [
+    "looking for black button-down for a wedding under \u00a3100"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "black",
+    "max_price": 100.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0498": 2,
+    "P0562": 2
+   }
+  },
+  {
+   "id": "S105",
+   "type": "single",
+   "turns": [
+    "looking for boot for hillwalking in the Lakes under \u00a3260"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 260.0
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0042": 2,
+    "P0106": 2,
+    "P0138": 2,
+    "P0202": 2,
+    "P0234": 2,
+    "P0282": 2,
+    "P0410": 2,
+    "P0442": 2,
+    "P0474": 2,
+    "P0506": 2,
+    "P0522": 2,
+    "P0554": 2
+   }
+  },
+  {
+   "id": "S106",
+   "type": "single",
+   "turns": [
+    "any minimal white loafer?"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "white"
+   },
+   "soft": {
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0236": 2,
+    "P0460": 2,
+    "P0572": 2
+   }
+  },
+  {
+   "id": "S107",
+   "type": "single",
+   "turns": [
+    "can you find me grungy green clutch for my wife under \u00a3150"
+   ],
+   "hard": {
+    "category": "handbag",
+    "colour": "green",
+    "max_price": 150.0,
+    "gender": "women"
+   },
+   "soft": {
+    "style": "edgy"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0062": 2
+   }
+  },
+  {
+   "id": "S108",
+   "type": "single",
+   "turns": [
+    "I need timepiece under \u00a3190"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 190.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0016": 2,
+    "P0032": 2,
+    "P0096": 2,
+    "P0160": 2,
+    "P0208": 2,
+    "P0272": 2,
+    "P0336": 2,
+    "P0368": 2,
+    "P0432": 2,
+    "P0448": 2,
+    "P0496": 2,
+    "P0544": 2,
+    "P0576": 2,
+    "P0592": 2
+   }
+  },
+  {
+   "id": "S109",
+   "type": "single",
+   "turns": [
+    "I need festival vibe grey dress under \u00a3200"
+   ],
+   "hard": {
+    "category": "dress",
+    "colour": "grey",
+    "max_price": 200.0
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0225": 2,
+    "P0401": 2
+   }
+  },
+  {
+   "id": "S110",
+   "type": "single",
+   "turns": [
+    "black chinos under \u00a3120"
+   ],
+   "hard": {
+    "category": "trousers",
+    "colour": "black",
+    "max_price": 120.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0005": 2,
+    "P0021": 2,
+    "P0037": 2,
+    "P0085": 2,
+    "P0277": 2,
+    "P0325": 2,
+    "P0357": 2,
+    "P0421": 2,
+    "P0437": 2,
+    "P0533": 2
+   }
+  },
+  {
+   "id": "S111",
+   "type": "single",
+   "turns": [
+    "any ivy league look pink watches for my nine-to-five under \u00a3120?"
+   ],
+   "hard": {
+    "category": "watch",
+    "colour": "pink",
+    "max_price": 120.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "preppy"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0032": 2,
+    "P0368": 1
+   }
+  },
+  {
+   "id": "S112",
+   "type": "single",
+   "turns": [
+    "I need white something for a dinner date"
+   ],
+   "hard": {
+    "colour": "white"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0004": 2,
+    "P0006": 2,
+    "P0017": 2,
+    "P0132": 2,
+    "P0154": 2,
+    "P0186": 2,
+    "P0193": 2,
+    "P0246": 2,
+    "P0250": 2,
+    "P0258": 2,
+    "P0312": 2,
+    "P0314": 2,
+    "P0326": 2,
+    "P0363": 2,
+    "P0426": 2,
+    "P0474": 2,
+    "P0475": 2,
+    "P0514": 2,
+    "P0522": 2,
+    "P0532": 2
+   }
+  },
+  {
+   "id": "S113",
+   "type": "single",
+   "turns": [
+    "blazer under \u00a3100"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 100.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0150": 2,
+    "P0246": 2,
+    "P0262": 2,
+    "P0294": 2,
+    "P0342": 2,
+    "P0486": 2,
+    "P0534": 2
+   }
+  },
+  {
+   "id": "S114",
+   "type": "single",
+   "turns": [
+    "looking for beige t-shirts"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "colour": "beige"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0067": 2,
+    "P0131": 2,
+    "P0179": 2,
+    "P0195": 2,
+    "P0291": 2,
+    "P0339": 2,
+    "P0355": 2,
+    "P0499": 2,
+    "P0547": 2
+   }
+  },
+  {
+   "id": "S115",
+   "type": "single",
+   "turns": [
+    "jackets for my wife under \u00a3110"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 110.0,
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0150": 2,
+    "P0246": 2,
+    "P0294": 2,
+    "P0342": 2,
+    "P0534": 2
+   }
+  },
+  {
+   "id": "S116",
+   "type": "single",
+   "turns": [
+    "looking for pink clutch for a party"
+   ],
+   "hard": {
+    "category": "handbag",
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "party"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0094": 2,
+    "P0494": 2
+   }
+  },
+  {
+   "id": "S117",
+   "type": "single",
+   "turns": [
+    "any jackets for my friend's nuptials under \u00a3110?"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 110.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0262": 2,
+    "P0294": 2,
+    "P0342": 2,
+    "P0534": 2
+   }
+  },
+  {
+   "id": "S118",
+   "type": "single",
+   "turns": [
+    "any casual pumps under \u00a3130?"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 130.0
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0283": 2,
+    "P0299": 2,
+    "P0427": 2,
+    "P0443": 2,
+    "P0523": 2
+   }
+  },
+  {
+   "id": "S119",
+   "type": "single",
+   "turns": [
+    "I need women's tan loafers for my nine-to-five"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "tan",
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0108": 2,
+    "P0268": 2,
+    "P0396": 2
+   }
+  },
+  {
+   "id": "S120",
+   "type": "single",
+   "turns": [
+    "looking for preppy burgundy something for a wedding under \u00a3270"
+   ],
+   "hard": {
+    "colour": "burgundy",
+    "max_price": 270.0
+   },
+   "soft": {
+    "occasion": "wedding",
+    "style": "preppy"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0012": 1,
+    "P0022": 1,
+    "P0030": 1,
+    "P0032": 1,
+    "P0038": 1,
+    "P0052": 1,
+    "P0085": 1,
+    "P0145": 1,
+    "P0146": 1,
+    "P0182": 1,
+    "P0201": 1,
+    "P0235": 1,
+    "P0268": 1,
+    "P0271": 1,
+    "P0273": 1,
+    "P0290": 1,
+    "P0322": 1,
+    "P0371": 1,
+    "P0400": 1,
+    "P0446": 1,
+    "P0468": 1,
+    "P0507": 1,
+    "P0516": 1,
+    "P0518": 1,
+    "P0544": 1,
+    "P0556": 2
+   }
+  },
+  {
+   "id": "S121",
+   "type": "single",
+   "turns": [
+    "looking for black watches for client meetings under \u00a3260"
+   ],
+   "hard": {
+    "category": "watch",
+    "colour": "black",
+    "max_price": 260.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0560": 2
+   }
+  },
+  {
+   "id": "S122",
+   "type": "single",
+   "turns": [
+    "casual loafers for my wife for the office under \u00a3170"
+   ],
+   "hard": {
+    "category": "loafers",
+    "max_price": 170.0,
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0108": 1,
+    "P0204": 1,
+    "P0220": 2,
+    "P0268": 1,
+    "P0332": 2,
+    "P0380": 1,
+    "P0396": 2,
+    "P0428": 2,
+    "P0492": 1,
+    "P0540": 1,
+    "P0588": 1
+   }
+  },
+  {
+   "id": "S123",
+   "type": "single",
+   "turns": [
+    "any red something for lounging by the pool?"
+   ],
+   "hard": {
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0019": 2,
+    "P0081": 2,
+    "P0109": 2,
+    "P0179": 2,
+    "P0243": 2,
+    "P0275": 2,
+    "P0285": 2,
+    "P0445": 2,
+    "P0465": 2,
+    "P0509": 2,
+    "P0529": 2,
+    "P0589": 2,
+    "P0590": 2
+   }
+  },
+  {
+   "id": "S124",
+   "type": "single",
+   "turns": [
+    "looking for frock under \u00a340"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 40.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0033": 2
+   }
+  },
+  {
+   "id": "S125",
+   "type": "single",
+   "turns": [
+    "pink boots for running errands"
+   ],
+   "hard": {
+    "category": "boots",
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0298": 2,
+    "P0346": 2
+   }
+  },
+  {
+   "id": "S126",
+   "type": "single",
+   "turns": [
+    "classic brown timepiece under \u00a3120"
+   ],
+   "hard": {
+    "category": "watch",
+    "colour": "brown",
+    "max_price": 120.0
+   },
+   "soft": {
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0368": 2
+   }
+  },
+  {
+   "id": "S127",
+   "type": "single",
+   "turns": [
+    "any burgundy heels under \u00a3100?"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "burgundy",
+    "max_price": 100.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0251": 2
+   }
+  },
+  {
+   "id": "S128",
+   "type": "single",
+   "turns": [
+    "men's loafer for work under \u00a3140"
+   ],
+   "hard": {
+    "category": "loafers",
+    "max_price": 140.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0252": 2,
+    "P0284": 2,
+    "P0412": 2
+   }
+  },
+  {
+   "id": "S129",
+   "type": "single",
+   "turns": [
+    "looking for a bit punk something for client meetings under \u00a3350"
+   ],
+   "hard": {
+    "max_price": 350.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "edgy"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0007": 2,
+    "P0010": 1,
+    "P0014": 1,
+    "P0015": 2,
+    "P0016": 1,
+    "P0018": 1,
+    "P0020": 1,
+    "P0021": 1,
+    "P0024": 1,
+    "P0026": 2,
+    "P0027": 1,
+    "P0028": 1,
+    "P0031": 1,
+    "P0032": 1,
+    "P0033": 1,
+    "P0034": 1,
+    "P0043": 1,
+    "P0046": 1,
+    "P0047": 1,
+    "P0049": 1,
+    "P0051": 1,
+    "P0053": 1,
+    "P0056": 2,
+    "P0058": 1,
+    "P0059": 1,
+    "P0062": 2,
+    "P0065": 1,
+    "P0069": 2,
+    "P0071": 1,
+    "P0072": 1,
+    "P0074": 1,
+    "P0078": 1,
+    "P0079": 1,
+    "P0080": 1,
+    "P0082": 1,
+    "P0085": 1,
+    "P0086": 1,
+    "P0088": 1,
+    "P0091": 1,
+    "P0095": 1,
+    "P0096": 1,
+    "P0106": 2,
+    "P0108": 1,
+    "P0110": 1,
+    "P0114": 2,
+    "P0119": 2,
+    "P0120": 1,
+    "P0122": 1,
+    "P0124": 1,
+    "P0127": 1,
+    "P0128": 1,
+    "P0129": 1,
+    "P0130": 1,
+    "P0135": 1,
+    "P0142": 1,
+    "P0143": 1,
+    "P0145": 1,
+    "P0146": 1,
+    "P0151": 1,
+    "P0154": 1,
+    "P0155": 1,
+    "P0159": 1,
+    "P0166": 1,
+    "P0168": 1,
+    "P0175": 1,
+    "P0177": 1,
+    "P0181": 1,
+    "P0184": 1,
+    "P0185": 1,
+    "P0191": 1,
+    "P0192": 1,
+    "P0193": 1,
+    "P0197": 1,
+    "P0199": 1,
+    "P0203": 1,
+    "P0209": 1,
+    "P0210": 1,
+    "P0219": 1,
+    "P0220": 1,
+    "P0222": 1,
+    "P0223": 1,
+    "P0224": 1,
+    "P0225": 1,
+    "P0229": 1,
+    "P0231": 1,
+    "P0241": 1,
+    "P0245": 1,
+    "P0247": 1,
+    "P0248": 1,
+    "P0251": 1,
+    "P0252": 1,
+    "P0258": 1,
+    "P0261": 1,
+    "P0263": 1,
+    "P0264": 1,
+    "P0268": 1,
+    "P0271": 1,
+    "P0272": 1,
+    "P0273": 1,
+    "P0274": 1,
+    "P0277": 1,
+    "P0280": 1,
+    "P0282": 1,
+    "P0284": 1,
+    "P0287": 1,
+    "P0290": 1,
+    "P0296": 1,
+    "P0299": 1,
+    "P0300": 1,
+    "P0301": 1,
+    "P0307": 1,
+    "P0310": 1,
+    "P0314": 1,
+    "P0320": 2,
+    "P0321": 1,
+    "P0328": 1,
+    "P0332": 1,
+    "P0335": 1,
+    "P0336": 1,
+    "P0338": 1,
+    "P0344": 1,
+    "P0348": 1,
+    "P0354": 1,
+    "P0357": 1,
+    "P0359": 1,
+    "P0361": 1,
+    "P0362": 1,
+    "P0364": 1,
+    "P0368": 1,
+    "P0369": 1,
+    "P0370": 1,
+    "P0372": 1,
+    "P0375": 1,
+    "P0376": 1,
+    "P0378": 1,
+    "P0379": 1,
+    "P0380": 2,
+    "P0383": 1,
+    "P0386": 1,
+    "P0387": 1,
+    "P0391": 1,
+    "P0392": 1,
+    "P0394": 1,
+    "P0395": 1,
+    "P0396": 1,
+    "P0402": 1,
+    "P0410": 1,
+    "P0412": 1,
+    "P0417": 1,
+    "P0423": 2,
+    "P0427": 1,
+    "P0428": 1,
+    "P0431": 1,
+    "P0432": 1,
+    "P0433": 1,
+    "P0438": 2,
+    "P0440": 1,
+    "P0442": 1,
+    "P0444": 2,
+    "P0446": 1,
+    "P0448": 1,
+    "P0449": 1,
+    "P0453": 1,
+    "P0454": 1,
+    "P0455": 1,
+    "P0456": 1,
+    "P0458": 1,
+    "P0459": 1,
+    "P0465": 1,
+    "P0466": 1,
+    "P0469": 1,
+    "P0472": 1,
+    "P0476": 1,
+    "P0485": 1,
+    "P0487": 1,
+    "P0488": 1,
+    "P0489": 1,
+    "P0491": 1,
+    "P0495": 1,
+    "P0499": 1,
+    "P0503": 1,
+    "P0504": 1,
+    "P0507": 1,
+    "P0511": 1,
+    "P0517": 1,
+    "P0520": 1,
+    "P0523": 1,
+    "P0536": 1,
+    "P0539": 2,
+    "P0540": 1,
+    "P0552": 1,
+    "P0553": 1,
+    "P0559": 2,
+    "P0560": 1,
+    "P0561": 1,
+    "P0565": 1,
+    "P0566": 1,
+    "P0567": 2,
+    "P0568": 1,
+    "P0574": 1,
+    "P0581": 2,
+    "P0583": 1,
+    "P0586": 1,
+    "P0590": 1,
+    "P0591": 1,
+    "P0592": 1,
+    "P0596": 1,
+    "P0598": 1
+   }
+  },
+  {
+   "id": "S130",
+   "type": "single",
+   "turns": [
+    "can you find me black watch for work under \u00a3260"
+   ],
+   "hard": {
+    "category": "watch",
+    "colour": "black",
+    "max_price": 260.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0560": 2
+   }
+  },
+  {
+   "id": "S131",
+   "type": "single",
+   "turns": [
+    "I need hippie-ish red kicks"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "red"
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0329": 2
+   }
+  },
+  {
+   "id": "S132",
+   "type": "single",
+   "turns": [
+    "looking for timepiece for my wife under \u00a3270"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 270.0,
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0016": 2,
+    "P0032": 2,
+    "P0048": 2,
+    "P0096": 2,
+    "P0144": 2,
+    "P0224": 2,
+    "P0336": 2,
+    "P0368": 2,
+    "P0400": 2,
+    "P0432": 2,
+    "P0448": 2,
+    "P0496": 2,
+    "P0528": 2,
+    "P0544": 2,
+    "P0560": 2,
+    "P0576": 2
+   }
+  },
+  {
+   "id": "S133",
+   "type": "single",
+   "turns": [
+    "any gown for lazy weekends under \u00a3140?"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0001": 2,
+    "P0225": 2,
+    "P0257": 2,
+    "P0353": 2,
+    "P0561": 2
+   }
+  },
+  {
+   "id": "S134",
+   "type": "single",
+   "turns": [
+    "blouse for everyday wear under \u00a330"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 30.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0274": 2,
+    "P0514": 2
+   }
+  },
+  {
+   "id": "S135",
+   "type": "single",
+   "turns": [
+    "pink loafers for my nine-to-five"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0380": 2,
+    "P0412": 2,
+    "P0428": 2
+   }
+  },
+  {
+   "id": "S136",
+   "type": "single",
+   "turns": [
+    "t-shirts for a beach holiday under \u00a330"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "max_price": 30.0
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0035": 2,
+    "P0051": 2,
+    "P0067": 2,
+    "P0083": 2,
+    "P0243": 2,
+    "P0275": 2,
+    "P0291": 2,
+    "P0355": 2,
+    "P0387": 2,
+    "P0483": 2
+   }
+  },
+  {
+   "id": "S137",
+   "type": "single",
+   "turns": [
+    "looking for ivy league look tan something for lifting weights"
+   ],
+   "hard": {
+    "colour": "tan"
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "preppy"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0035": 1,
+    "P0066": 1,
+    "P0195": 2,
+    "P0200": 1,
+    "P0201": 1,
+    "P0233": 1,
+    "P0245": 2,
+    "P0344": 1,
+    "P0352": 1,
+    "P0452": 1,
+    "P0467": 1,
+    "P0520": 1,
+    "P0538": 1,
+    "P0556": 1
+   }
+  },
+  {
+   "id": "S138",
+   "type": "single",
+   "turns": [
+    "can you find me sporty cream something for the office under \u00a390"
+   ],
+   "hard": {
+    "colour": "cream",
+    "max_price": 90.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "sporty"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0079": 1,
+    "P0216": 1,
+    "P0220": 1,
+    "P0223": 1,
+    "P0308": 1,
+    "P0375": 2,
+    "P0376": 1,
+    "P0377": 1,
+    "P0410": 2,
+    "P0456": 1
+   }
+  },
+  {
+   "id": "S139",
+   "type": "single",
+   "turns": [
+    "looking for cream boots under \u00a3190"
+   ],
+   "hard": {
+    "category": "boots",
+    "colour": "cream",
+    "max_price": 190.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0042": 2,
+    "P0202": 2,
+    "P0250": 2,
+    "P0330": 2,
+    "P0410": 2
+   }
+  },
+  {
+   "id": "S140",
+   "type": "single",
+   "turns": [
+    "looking for sporty something for a dinner date under \u00a3200"
+   ],
+   "hard": {
+    "max_price": 200.0
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "sporty"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0001": 1,
+    "P0002": 1,
+    "P0004": 1,
+    "P0008": 1,
+    "P0018": 1,
+    "P0020": 1,
+    "P0022": 1,
+    "P0024": 1,
+    "P0029": 1,
+    "P0033": 1,
+    "P0038": 2,
+    "P0046": 1,
+    "P0050": 2,
+    "P0052": 1,
+    "P0060": 1,
+    "P0066": 1,
+    "P0068": 1,
+    "P0071": 1,
+    "P0082": 1,
+    "P0084": 1,
+    "P0088": 1,
+    "P0097": 1,
+    "P0104": 1,
+    "P0107": 1,
+    "P0111": 1,
+    "P0114": 1,
+    "P0120": 1,
+    "P0123": 1,
+    "P0132": 1,
+    "P0134": 1,
+    "P0145": 1,
+    "P0147": 1,
+    "P0150": 1,
+    "P0152": 1,
+    "P0154": 1,
+    "P0161": 1,
+    "P0163": 1,
+    "P0164": 1,
+    "P0168": 1,
+    "P0170": 1,
+    "P0178": 1,
+    "P0186": 2,
+    "P0187": 1,
+    "P0188": 1,
+    "P0193": 1,
+    "P0194": 1,
+    "P0196": 1,
+    "P0200": 1,
+    "P0203": 1,
+    "P0212": 1,
+    "P0216": 1,
+    "P0225": 1,
+    "P0228": 1,
+    "P0233": 1,
+    "P0243": 1,
+    "P0246": 1,
+    "P0250": 1,
+    "P0251": 1,
+    "P0258": 1,
+    "P0264": 1,
+    "P0266": 1,
+    "P0267": 1,
+    "P0268": 1,
+    "P0276": 1,
+    "P0280": 1,
+    "P0283": 1,
+    "P0285": 1,
+    "P0291": 1,
+    "P0296": 1,
+    "P0305": 2,
+    "P0308": 2,
+    "P0312": 1,
+    "P0314": 1,
+    "P0315": 1,
+    "P0319": 1,
+    "P0321": 1,
+    "P0322": 2,
+    "P0323": 1,
+    "P0328": 1,
+    "P0330": 2,
+    "P0338": 1,
+    "P0340": 2,
+    "P0344": 1,
+    "P0354": 1,
+    "P0356": 1,
+    "P0357": 1,
+    "P0362": 1,
+    "P0369": 1,
+    "P0372": 1,
+    "P0375": 1,
+    "P0377": 1,
+    "P0382": 1,
+    "P0385": 1,
+    "P0386": 1,
+    "P0388": 1,
+    "P0390": 1,
+    "P0391": 1,
+    "P0392": 1,
+    "P0410": 1,
+    "P0411": 1,
+    "P0412": 1,
+    "P0420": 1,
+    "P0424": 1,
+    "P0428": 1,
+    "P0436": 1,
+    "P0437": 1,
+    "P0443": 1,
+    "P0449": 1,
+    "P0450": 2,
+    "P0452": 1,
+    "P0461": 1,
+    "P0466": 1,
+    "P0468": 1,
+    "P0470": 1,
+    "P0474": 1,
+    "P0475": 1,
+    "P0481": 2,
+    "P0484": 1,
+    "P0489": 1,
+    "P0493": 1,
+    "P0500": 1,
+    "P0502": 1,
+    "P0508": 1,
+    "P0513": 1,
+    "P0514": 2,
+    "P0521": 1,
+    "P0523": 1,
+    "P0529": 1,
+    "P0530": 1,
+    "P0532": 1,
+    "P0536": 1,
+    "P0545": 1,
+    "P0546": 1,
+    "P0548": 1,
+    "P0552": 1,
+    "P0554": 1,
+    "P0575": 1,
+    "P0578": 1,
+    "P0580": 1,
+    "P0584": 1,
+    "P0596": 1,
+    "P0600": 1
+   }
+  },
+  {
+   "id": "S141",
+   "type": "single",
+   "turns": [
+    "something that won't date running shoes under \u00a3110"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 110.0
+   },
+   "soft": {
+    "style": "classic"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0009": 2,
+    "P0169": 2,
+    "P0217": 2,
+    "P0393": 2
+   }
+  },
+  {
+   "id": "S142",
+   "type": "single",
+   "turns": [
+    "rugged t-shirt"
+   ],
+   "hard": {
+    "category": "t-shirt"
+   },
+   "soft": {
+    "style": "outdoor"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0419": 2,
+    "P0547": 2
+   }
+  },
+  {
+   "id": "S143",
+   "type": "single",
+   "turns": [
+    "something that won't date grey something for lounging by the pool under \u00a3210"
+   ],
+   "hard": {
+    "colour": "grey",
+    "max_price": 210.0
+   },
+   "soft": {
+    "occasion": "beach holiday",
+    "style": "classic"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0025": 1,
+    "P0061": 1,
+    "P0077": 1,
+    "P0081": 2,
+    "P0097": 1,
+    "P0157": 1,
+    "P0180": 1,
+    "P0199": 1,
+    "P0217": 1,
+    "P0253": 1,
+    "P0275": 1,
+    "P0277": 1,
+    "P0323": 1,
+    "P0337": 2,
+    "P0353": 1,
+    "P0365": 1,
+    "P0381": 1,
+    "P0388": 1,
+    "P0392": 1,
+    "P0401": 1,
+    "P0424": 1,
+    "P0429": 1,
+    "P0435": 1,
+    "P0483": 1,
+    "P0495": 1,
+    "P0513": 1,
+    "P0525": 1,
+    "P0536": 1
+   }
+  },
+  {
+   "id": "S144",
+   "type": "single",
+   "turns": [
+    "any women's casual frock under \u00a3170?"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 170.0,
+    "gender": "women"
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0033": 2,
+    "P0049": 2,
+    "P0145": 2,
+    "P0161": 2,
+    "P0177": 2,
+    "P0289": 2,
+    "P0321": 2,
+    "P0449": 2,
+    "P0561": 2,
+    "P0577": 2,
+    "P0593": 2
+   }
+  },
+  {
+   "id": "S145",
+   "type": "single",
+   "turns": [
+    "I need burgundy jacket for my husband for lazy weekends under \u00a3310"
+   ],
+   "hard": {
+    "category": "jacket",
+    "colour": "burgundy",
+    "max_price": 310.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0102": 2,
+    "P0518": 2
+   }
+  },
+  {
+   "id": "S146",
+   "type": "single",
+   "turns": [
+    "any pink tees?"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "colour": "pink"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0147": 2,
+    "P0259": 2,
+    "P0323": 2,
+    "P0339": 2,
+    "P0371": 2,
+    "P0387": 2,
+    "P0435": 2,
+    "P0451": 2,
+    "P0467": 2,
+    "P0547": 2
+   }
+  },
+  {
+   "id": "S147",
+   "type": "single",
+   "turns": [
+    "any tan loafers under \u00a3160?"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "tan",
+    "max_price": 160.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0108": 2,
+    "P0156": 2,
+    "P0236": 2,
+    "P0268": 2,
+    "P0396": 2,
+    "P0412": 2,
+    "P0540": 2
+   }
+  },
+  {
+   "id": "S148",
+   "type": "single",
+   "turns": [
+    "any women's pink stilettos?"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "pink",
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0011": 2,
+    "P0123": 2,
+    "P0171": 2,
+    "P0219": 2,
+    "P0315": 2,
+    "P0379": 2,
+    "P0475": 2,
+    "P0507": 2,
+    "P0539": 2
+   }
+  },
+  {
+   "id": "S149",
+   "type": "single",
+   "turns": [
+    "can you find me festival vibe pink stilettos"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "pink"
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0011": 2,
+    "P0123": 2,
+    "P0315": 2,
+    "P0507": 2
+   }
+  },
+  {
+   "id": "S150",
+   "type": "single",
+   "turns": [
+    "looking for casual green tee for everyday wear"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0035": 1,
+    "P0387": 1,
+    "P0403": 2,
+    "P0547": 2
+   }
+  },
+  {
+   "id": "S151",
+   "type": "single",
+   "turns": [
+    "can you find me sliders for a trip to Ibiza under \u00a340"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 40.0
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0093": 2,
+    "P0109": 2,
+    "P0189": 2,
+    "P0205": 2,
+    "P0253": 2,
+    "P0269": 2,
+    "P0333": 2,
+    "P0429": 2,
+    "P0493": 2,
+    "P0541": 2
+   }
+  },
+  {
+   "id": "S152",
+   "type": "single",
+   "turns": [
+    "can you find me preppy boots for work"
+   ],
+   "hard": {
+    "category": "boots"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "preppy"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0010": 1,
+    "P0026": 1,
+    "P0058": 1,
+    "P0074": 1,
+    "P0106": 1,
+    "P0122": 1,
+    "P0218": 1,
+    "P0282": 1,
+    "P0298": 1,
+    "P0314": 1,
+    "P0362": 1,
+    "P0378": 1,
+    "P0394": 1,
+    "P0410": 1,
+    "P0442": 2,
+    "P0458": 2,
+    "P0490": 1,
+    "P0538": 2,
+    "P0586": 1
+   }
+  },
+  {
+   "id": "S153",
+   "type": "single",
+   "turns": [
+    "chilled burgundy something for my friend's nuptials"
+   ],
+   "hard": {
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "wedding",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0007": 1,
+    "P0012": 1,
+    "P0016": 1,
+    "P0030": 2,
+    "P0038": 1,
+    "P0045": 1,
+    "P0096": 1,
+    "P0133": 1,
+    "P0145": 2,
+    "P0150": 1,
+    "P0161": 1,
+    "P0175": 1,
+    "P0182": 1,
+    "P0186": 1,
+    "P0203": 1,
+    "P0211": 1,
+    "P0215": 1,
+    "P0235": 1,
+    "P0261": 1,
+    "P0268": 1,
+    "P0269": 1,
+    "P0273": 1,
+    "P0290": 2,
+    "P0304": 1,
+    "P0332": 1,
+    "P0361": 1,
+    "P0365": 1,
+    "P0400": 2,
+    "P0413": 1,
+    "P0424": 1,
+    "P0427": 1,
+    "P0446": 1,
+    "P0473": 1,
+    "P0475": 1,
+    "P0518": 1,
+    "P0522": 1,
+    "P0544": 1,
+    "P0556": 1,
+    "P0573": 1
+   }
+  },
+  {
+   "id": "S154",
+   "type": "single",
+   "turns": [
+    "beige jacket for everyday wear"
+   ],
+   "hard": {
+    "category": "jacket",
+    "colour": "beige"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0502": 2,
+    "P0550": 2
+   }
+  },
+  {
+   "id": "S155",
+   "type": "single",
+   "turns": [
+    "can you find me a bit punk grey button-up under \u00a340"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "grey",
+    "max_price": 40.0
+   },
+   "soft": {
+    "style": "edgy"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0114": 2,
+    "P0274": 2
+   }
+  },
+  {
+   "id": "S156",
+   "type": "single",
+   "turns": [
+    "can you find me sporty watch under \u00a3460"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 460.0
+   },
+   "soft": {
+    "style": "sporty"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0064": 2,
+    "P0128": 2
+   }
+  },
+  {
+   "id": "S157",
+   "type": "single",
+   "turns": [
+    "can you find me women's tan loafer for running errands under \u00a3120"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "tan",
+    "max_price": 120.0,
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0540": 2
+   }
+  },
+  {
+   "id": "S158",
+   "type": "single",
+   "turns": [
+    "can you find me minimal beige something for work"
+   ],
+   "hard": {
+    "colour": "beige"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0058": 2,
+    "P0067": 1,
+    "P0071": 2,
+    "P0079": 2,
+    "P0118": 1,
+    "P0131": 1,
+    "P0145": 1,
+    "P0195": 1,
+    "P0207": 1,
+    "P0262": 1,
+    "P0299": 1,
+    "P0309": 1,
+    "P0331": 1,
+    "P0335": 2,
+    "P0344": 1,
+    "P0352": 1,
+    "P0374": 1,
+    "P0378": 1,
+    "P0411": 1,
+    "P0423": 1,
+    "P0427": 1,
+    "P0438": 1,
+    "P0441": 1,
+    "P0448": 1,
+    "P0450": 1,
+    "P0511": 1,
+    "P0519": 1,
+    "P0536": 1,
+    "P0551": 1,
+    "P0554": 1,
+    "P0569": 1,
+    "P0581": 1,
+    "P0584": 1,
+    "P0591": 2
+   }
+  },
+  {
+   "id": "S159",
+   "type": "single",
+   "turns": [
+    "grey chinos for client meetings under \u00a3140"
+   ],
+   "hard": {
+    "category": "trousers",
+    "colour": "grey",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0277": 2
+   }
+  },
+  {
+   "id": "S160",
+   "type": "single",
+   "turns": [
+    "I need boho black something for everyday wear under \u00a3160"
+   ],
+   "hard": {
+    "colour": "black",
+    "max_price": 160.0
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0019": 1,
+    "P0020": 1,
+    "P0021": 1,
+    "P0037": 1,
+    "P0051": 1,
+    "P0053": 1,
+    "P0063": 1,
+    "P0083": 1,
+    "P0084": 2,
+    "P0085": 1,
+    "P0088": 1,
+    "P0113": 1,
+    "P0115": 1,
+    "P0132": 1,
+    "P0150": 1,
+    "P0153": 2,
+    "P0168": 1,
+    "P0191": 1,
+    "P0205": 2,
+    "P0228": 1,
+    "P0235": 1,
+    "P0236": 1,
+    "P0237": 2,
+    "P0250": 2,
+    "P0259": 1,
+    "P0267": 1,
+    "P0312": 1,
+    "P0328": 1,
+    "P0333": 2,
+    "P0339": 1,
+    "P0356": 2,
+    "P0357": 1,
+    "P0377": 1,
+    "P0388": 1,
+    "P0402": 2,
+    "P0408": 1,
+    "P0413": 1,
+    "P0421": 1,
+    "P0429": 1,
+    "P0451": 1,
+    "P0467": 1,
+    "P0495": 1,
+    "P0500": 1,
+    "P0509": 2,
+    "P0514": 1,
+    "P0516": 1,
+    "P0525": 1,
+    "P0531": 2,
+    "P0532": 2,
+    "P0541": 1,
+    "P0545": 1,
+    "P0561": 1,
+    "P0585": 2
+   }
+  },
+  {
+   "id": "S161",
+   "type": "single",
+   "turns": [
+    "looking for trainers under \u00a3120"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 120.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0009": 2,
+    "P0041": 2,
+    "P0057": 2,
+    "P0073": 2,
+    "P0137": 2,
+    "P0169": 2,
+    "P0217": 2,
+    "P0233": 2,
+    "P0249": 2,
+    "P0281": 2,
+    "P0313": 2,
+    "P0361": 2,
+    "P0377": 2,
+    "P0393": 2,
+    "P0409": 2,
+    "P0425": 2,
+    "P0457": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0521": 2,
+    "P0537": 2,
+    "P0569": 2,
+    "P0585": 2
+   }
+  },
+  {
+   "id": "S162",
+   "type": "single",
+   "turns": [
+    "I need olive jacket"
+   ],
+   "hard": {
+    "category": "jacket",
+    "colour": "olive"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0054": 2,
+    "P0086": 2,
+    "P0294": 2,
+    "P0486": 2,
+    "P0566": 2
+   }
+  },
+  {
+   "id": "S163",
+   "type": "single",
+   "turns": [
+    "any navy something for a summer ceremony under \u00a350?"
+   ],
+   "hard": {
+    "colour": "navy",
+    "max_price": 50.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0117": 2
+   }
+  },
+  {
+   "id": "S164",
+   "type": "single",
+   "turns": [
+    "can you find me pink gown for the office"
+   ],
+   "hard": {
+    "category": "dress",
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0033": 2,
+    "P0369": 2
+   }
+  },
+  {
+   "id": "S165",
+   "type": "single",
+   "turns": [
+    "pink stilettos for a summer ceremony under \u00a3180"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "pink",
+    "max_price": 180.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0171": 2
+   }
+  },
+  {
+   "id": "S166",
+   "type": "single",
+   "turns": [
+    "I need black joggers"
+   ],
+   "hard": {
+    "category": "trousers",
+    "colour": "black"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0005": 2,
+    "P0021": 2,
+    "P0037": 2,
+    "P0053": 2,
+    "P0085": 2,
+    "P0277": 2,
+    "P0325": 2,
+    "P0357": 2,
+    "P0421": 2,
+    "P0437": 2,
+    "P0533": 2
+   }
+  },
+  {
+   "id": "S167",
+   "type": "single",
+   "turns": [
+    "can you find me sliders for my husband for lazy weekends under \u00a3120"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 120.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0029": 2,
+    "P0045": 2,
+    "P0061": 2,
+    "P0077": 2,
+    "P0125": 2,
+    "P0173": 2,
+    "P0205": 2,
+    "P0221": 2,
+    "P0237": 2,
+    "P0317": 2,
+    "P0333": 2,
+    "P0365": 2,
+    "P0397": 2,
+    "P0429": 2,
+    "P0477": 2,
+    "P0493": 2,
+    "P0541": 2,
+    "P0573": 2,
+    "P0589": 2
+   }
+  },
+  {
+   "id": "S168",
+   "type": "single",
+   "turns": [
+    "looking for boho olive jeans for a dinner date under \u00a3100"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "olive",
+    "max_price": 100.0
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0164": 2,
+    "P0372": 1
+   }
+  },
+  {
+   "id": "S169",
+   "type": "single",
+   "turns": [
+    "can you find me boot for lazy weekends under \u00a3120"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 120.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0298": 2,
+    "P0346": 2
+   }
+  },
+  {
+   "id": "S170",
+   "type": "single",
+   "turns": [
+    "can you find me preppy white puffer for the office under \u00a3190"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "white",
+    "max_price": 190.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "preppy"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0135": 2,
+    "P0151": 1,
+    "P0263": 1,
+    "P0375": 1,
+    "P0391": 1,
+    "P0423": 1
+   }
+  },
+  {
+   "id": "S171",
+   "type": "single",
+   "turns": [
+    "I need shirt for drinks on Friday night under \u00a3110"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 110.0
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0002": 2,
+    "P0018": 2,
+    "P0050": 2,
+    "P0082": 2,
+    "P0114": 2,
+    "P0178": 2,
+    "P0194": 2,
+    "P0258": 2,
+    "P0322": 2,
+    "P0354": 2,
+    "P0450": 2,
+    "P0514": 2,
+    "P0530": 2,
+    "P0578": 2
+   }
+  },
+  {
+   "id": "S172",
+   "type": "single",
+   "turns": [
+    "any casual grey trainer for the gym under \u00a3150?"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "grey",
+    "max_price": 150.0
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0105": 2,
+    "P0217": 1,
+    "P0313": 2,
+    "P0473": 2,
+    "P0489": 1,
+    "P0553": 1
+   }
+  },
+  {
+   "id": "S173",
+   "type": "single",
+   "turns": [
+    "looking for pink something for lifting weights"
+   ],
+   "hard": {
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0105": 2,
+    "P0133": 2,
+    "P0147": 2,
+    "P0240": 2,
+    "P0249": 2,
+    "P0259": 2,
+    "P0281": 2,
+    "P0323": 2,
+    "P0339": 2,
+    "P0371": 2,
+    "P0435": 2,
+    "P0451": 2,
+    "P0467": 2,
+    "P0537": 2
+   }
+  },
+  {
+   "id": "S174",
+   "type": "single",
+   "turns": [
+    "can you find me green something for a wedding under \u00a3230"
+   ],
+   "hard": {
+    "colour": "green",
+    "max_price": 230.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0038": 2,
+    "P0242": 2,
+    "P0274": 2,
+    "P0305": 2,
+    "P0366": 2,
+    "P0418": 2,
+    "P0437": 2,
+    "P0438": 2,
+    "P0544": 2,
+    "P0577": 2,
+    "P0588": 2
+   }
+  },
+  {
+   "id": "S175",
+   "type": "single",
+   "turns": [
+    "chilled red something for a romantic evening under \u00a360"
+   ],
+   "hard": {
+    "colour": "red",
+    "max_price": 60.0
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0002": 2,
+    "P0161": 2,
+    "P0275": 1,
+    "P0286": 1,
+    "P0361": 1,
+    "P0450": 1,
+    "P0473": 1,
+    "P0482": 1,
+    "P0563": 1,
+    "P0579": 1,
+    "P0589": 1
+   }
+  },
+  {
+   "id": "S176",
+   "type": "single",
+   "turns": [
+    "rugged cream something for hiking under \u00a3410"
+   ],
+   "hard": {
+    "colour": "cream",
+    "max_price": 410.0
+   },
+   "soft": {
+    "occasion": "hiking",
+    "style": "outdoor"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0042": 1,
+    "P0043": 1,
+    "P0052": 1,
+    "P0070": 2,
+    "P0091": 1,
+    "P0118": 1,
+    "P0183": 1,
+    "P0202": 1,
+    "P0214": 1,
+    "P0215": 1,
+    "P0218": 1,
+    "P0221": 1,
+    "P0223": 1,
+    "P0250": 1,
+    "P0282": 2,
+    "P0287": 1,
+    "P0297": 1,
+    "P0311": 2,
+    "P0383": 1,
+    "P0395": 1,
+    "P0396": 1,
+    "P0410": 1,
+    "P0420": 1,
+    "P0429": 1,
+    "P0442": 1,
+    "P0448": 1,
+    "P0519": 1,
+    "P0543": 1,
+    "P0544": 1
+   }
+  },
+  {
+   "id": "S177",
+   "type": "single",
+   "turns": [
+    "any chilled frock for my nine-to-five under \u00a390?"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 90.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0033": 2,
+    "P0049": 2,
+    "P0145": 2,
+    "P0161": 1,
+    "P0209": 1,
+    "P0417": 1,
+    "P0577": 1
+   }
+  },
+  {
+   "id": "S178",
+   "type": "single",
+   "turns": [
+    "I need grey puffer under \u00a3520"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "grey",
+    "max_price": 520.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0007": 2,
+    "P0023": 2,
+    "P0087": 2,
+    "P0103": 2,
+    "P0135": 2,
+    "P0199": 2,
+    "P0311": 2,
+    "P0519": 2
+   }
+  },
+  {
+   "id": "S179",
+   "type": "single",
+   "turns": [
+    "any black gown for a trip to Ibiza under \u00a3210?"
+   ],
+   "hard": {
+    "category": "dress",
+    "colour": "black",
+    "max_price": 210.0
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0081": 2,
+    "P0481": 2,
+    "P0545": 2
+   }
+  },
+  {
+   "id": "S180",
+   "type": "single",
+   "turns": [
+    "any green backpack for hiking?"
+   ],
+   "hard": {
+    "category": "backpack",
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0175": 2,
+    "P0239": 2,
+    "P0575": 2
+   }
+  },
+  {
+   "id": "S181",
+   "type": "single",
+   "turns": [
+    "looking for men's cream button-up under \u00a360"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "cream",
+    "max_price": 60.0,
+    "gender": "men"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0034": 2
+   }
+  },
+  {
+   "id": "S182",
+   "type": "single",
+   "turns": [
+    "women's olive loafer under \u00a3240"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "olive",
+    "max_price": 240.0,
+    "gender": "women"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0140": 2,
+    "P0204": 2,
+    "P0268": 2,
+    "P0380": 2
+   }
+  },
+  {
+   "id": "S183",
+   "type": "single",
+   "turns": [
+    "I need daypack for my nine-to-five under \u00a3320"
+   ],
+   "hard": {
+    "category": "backpack",
+    "max_price": 320.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0015": 2,
+    "P0031": 2,
+    "P0047": 2,
+    "P0079": 2,
+    "P0095": 2,
+    "P0127": 2,
+    "P0143": 2,
+    "P0159": 2,
+    "P0175": 2,
+    "P0191": 2,
+    "P0223": 2,
+    "P0271": 2,
+    "P0287": 2,
+    "P0335": 2,
+    "P0383": 2,
+    "P0431": 2,
+    "P0495": 2,
+    "P0511": 2,
+    "P0559": 2,
+    "P0591": 2
+   }
+  },
+  {
+   "id": "S184",
+   "type": "single",
+   "turns": [
+    "any boho cream something for a dinner date under \u00a3180?"
+   ],
+   "hard": {
+    "colour": "cream",
+    "max_price": 180.0
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0003": 1,
+    "P0013": 1,
+    "P0036": 1,
+    "P0045": 1,
+    "P0052": 1,
+    "P0082": 1,
+    "P0084": 2,
+    "P0097": 1,
+    "P0101": 1,
+    "P0157": 1,
+    "P0174": 1,
+    "P0187": 2,
+    "P0196": 1,
+    "P0213": 1,
+    "P0220": 1,
+    "P0223": 1,
+    "P0250": 2,
+    "P0259": 1,
+    "P0272": 1,
+    "P0276": 1,
+    "P0296": 2,
+    "P0297": 1,
+    "P0308": 1,
+    "P0330": 2,
+    "P0338": 1,
+    "P0340": 1,
+    "P0385": 2,
+    "P0392": 1,
+    "P0411": 1,
+    "P0424": 1,
+    "P0441": 1,
+    "P0456": 1,
+    "P0478": 1,
+    "P0531": 1,
+    "P0532": 2,
+    "P0536": 1,
+    "P0557": 1,
+    "P0559": 1
+   }
+  },
+  {
+   "id": "S185",
+   "type": "single",
+   "turns": [
+    "women's puffer for hillwalking in the Lakes under \u00a3530"
+   ],
+   "hard": {
+    "category": "coat",
+    "max_price": 530.0,
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0055": 2,
+    "P0103": 2,
+    "P0215": 2,
+    "P0231": 2,
+    "P0327": 2,
+    "P0407": 2,
+    "P0471": 2,
+    "P0503": 2
+   }
+  },
+  {
+   "id": "S186",
+   "type": "single",
+   "turns": [
+    "can you find me classic blue something for work under \u00a3110"
+   ],
+   "hard": {
+    "colour": "blue",
+    "max_price": 110.0
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0050": 1,
+    "P0065": 2,
+    "P0077": 1,
+    "P0078": 1,
+    "P0097": 1,
+    "P0108": 1,
+    "P0110": 1,
+    "P0148": 1,
+    "P0169": 1,
+    "P0184": 1,
+    "P0229": 1,
+    "P0252": 1,
+    "P0276": 1,
+    "P0344": 1,
+    "P0349": 1,
+    "P0360": 1,
+    "P0376": 1,
+    "P0445": 1,
+    "P0456": 1,
+    "P0472": 2,
+    "P0525": 1,
+    "P0526": 1,
+    "P0563": 1,
+    "P0581": 1
+   }
+  },
+  {
+   "id": "S187",
+   "type": "single",
+   "turns": [
+    "any nothing flashy joggers for lifting weights under \u00a350?"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 50.0
+   },
+   "soft": {
+    "occasion": "gym",
+    "style": "minimalist"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0005": 2,
+    "P0245": 1,
+    "P0325": 2
+   }
+  },
+  {
+   "id": "S188",
+   "type": "single",
+   "turns": [
+    "casual burgundy boots for hiking under \u00a3270"
+   ],
+   "hard": {
+    "category": "boots",
+    "colour": "burgundy",
+    "max_price": 270.0
+   },
+   "soft": {
+    "occasion": "hiking",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0186": 1,
+    "P0522": 2
+   }
+  },
+  {
+   "id": "S189",
+   "type": "single",
+   "turns": [
+    "any black watches for my husband for lifting weights under \u00a3460?"
+   ],
+   "hard": {
+    "category": "watch",
+    "colour": "black",
+    "max_price": 460.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0064": 2,
+    "P0240": 2,
+    "P0496": 2
+   }
+  },
+  {
+   "id": "S190",
+   "type": "single",
+   "turns": [
+    "any casual blue something for a dinner date?"
+   ],
+   "hard": {
+    "colour": "blue"
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0002": 2,
+    "P0005": 1,
+    "P0006": 1,
+    "P0043": 1,
+    "P0050": 1,
+    "P0090": 2,
+    "P0095": 1,
+    "P0097": 1,
+    "P0104": 1,
+    "P0110": 1,
+    "P0121": 1,
+    "P0148": 1,
+    "P0170": 2,
+    "P0200": 1,
+    "P0204": 1,
+    "P0227": 1,
+    "P0229": 1,
+    "P0240": 1,
+    "P0246": 1,
+    "P0252": 1,
+    "P0253": 1,
+    "P0263": 1,
+    "P0270": 1,
+    "P0276": 2,
+    "P0283": 1,
+    "P0294": 1,
+    "P0321": 1,
+    "P0326": 1,
+    "P0327": 1,
+    "P0332": 1,
+    "P0338": 1,
+    "P0354": 1,
+    "P0361": 1,
+    "P0362": 2,
+    "P0366": 1,
+    "P0367": 1,
+    "P0373": 1,
+    "P0379": 1,
+    "P0405": 1,
+    "P0436": 1,
+    "P0440": 1,
+    "P0468": 1,
+    "P0474": 1,
+    "P0522": 2,
+    "P0554": 1,
+    "P0563": 1,
+    "P0571": 1,
+    "P0573": 1,
+    "P0579": 1,
+    "P0582": 1,
+    "P0588": 1
+   }
+  },
+  {
+   "id": "S191",
+   "type": "single",
+   "turns": [
+    "I need festival vibe shirts"
+   ],
+   "hard": {
+    "category": "shirt"
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0018": 2,
+    "P0130": 2,
+    "P0178": 2,
+    "P0242": 2,
+    "P0306": 2,
+    "P0370": 2,
+    "P0402": 2,
+    "P0594": 2
+   }
+  },
+  {
+   "id": "S192",
+   "type": "single",
+   "turns": [
+    "brown jumpers for a dinner date"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0024": 2,
+    "P0296": 2,
+    "P0584": 2
+   }
+  },
+  {
+   "id": "S193",
+   "type": "single",
+   "turns": [
+    "I need green coats"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "green"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0135": 2,
+    "P0231": 2,
+    "P0295": 2,
+    "P0423": 2,
+    "P0455": 2,
+    "P0471": 2
+   }
+  },
+  {
+   "id": "S194",
+   "type": "single",
+   "turns": [
+    "any rucksack for hiking?"
+   ],
+   "hard": {
+    "category": "backpack"
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0015": 2,
+    "P0111": 2,
+    "P0127": 2,
+    "P0175": 2,
+    "P0207": 2,
+    "P0223": 2,
+    "P0239": 2,
+    "P0271": 2,
+    "P0303": 2,
+    "P0319": 2,
+    "P0335": 2,
+    "P0383": 2,
+    "P0399": 2,
+    "P0447": 2,
+    "P0479": 2,
+    "P0543": 2,
+    "P0575": 2
+   }
+  },
+  {
+   "id": "S195",
+   "type": "single",
+   "turns": [
+    "chilled red something for drinks on Friday night"
+   ],
+   "hard": {
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0002": 2,
+    "P0037": 1,
+    "P0038": 1,
+    "P0068": 1,
+    "P0086": 1,
+    "P0087": 1,
+    "P0104": 1,
+    "P0110": 1,
+    "P0134": 1,
+    "P0138": 1,
+    "P0145": 1,
+    "P0161": 2,
+    "P0178": 1,
+    "P0215": 1,
+    "P0228": 1,
+    "P0248": 1,
+    "P0251": 1,
+    "P0275": 1,
+    "P0280": 2,
+    "P0286": 1,
+    "P0289": 1,
+    "P0313": 1,
+    "P0341": 1,
+    "P0356": 2,
+    "P0358": 1,
+    "P0361": 1,
+    "P0362": 2,
+    "P0406": 1,
+    "P0426": 1,
+    "P0428": 1,
+    "P0434": 1,
+    "P0437": 1,
+    "P0450": 1,
+    "P0473": 1,
+    "P0482": 1,
+    "P0517": 1,
+    "P0523": 1,
+    "P0528": 1,
+    "P0529": 1,
+    "P0532": 1,
+    "P0542": 1,
+    "P0563": 1,
+    "P0567": 1,
+    "P0579": 1,
+    "P0589": 1,
+    "P0600": 1
+   }
+  },
+  {
+   "id": "S196",
+   "type": "single",
+   "turns": [
+    "can you find me green bag under \u00a3170"
+   ],
+   "hard": {
+    "category": "handbag",
+    "colour": "green",
+    "max_price": 170.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0062": 2,
+    "P0158": 2,
+    "P0206": 2,
+    "P0286": 2,
+    "P0334": 2,
+    "P0366": 2,
+    "P0478": 2,
+    "P0526": 2
+   }
+  },
+  {
+   "id": "S197",
+   "type": "single",
+   "turns": [
+    "chilled tees for my husband under \u00a350"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "max_price": 50.0,
+    "gender": "men"
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0131": 2,
+    "P0227": 2,
+    "P0275": 2,
+    "P0403": 2,
+    "P0563": 2,
+    "P0579": 2,
+    "P0595": 2
+   }
+  },
+  {
+   "id": "S198",
+   "type": "single",
+   "turns": [
+    "any boho black sandals for my husband for everyday wear under \u00a340?"
+   ],
+   "hard": {
+    "category": "sandals",
+    "colour": "black",
+    "max_price": 40.0,
+    "gender": "men"
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0205": 2,
+    "P0333": 2,
+    "P0429": 1,
+    "P0541": 1
+   }
+  },
+  {
+   "id": "S199",
+   "type": "single",
+   "turns": [
+    "I need chilled cardigan"
+   ],
+   "hard": {
+    "category": "knitwear"
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0008": 2,
+    "P0024": 2,
+    "P0120": 2,
+    "P0152": 2,
+    "P0248": 2,
+    "P0264": 2,
+    "P0280": 2,
+    "P0424": 2,
+    "P0440": 2,
+    "P0488": 2,
+    "P0520": 2
+   }
+  },
+  {
+   "id": "S200",
+   "type": "single",
+   "turns": [
+    "pink button-up under \u00a3110"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "pink",
+    "max_price": 110.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0034": 2,
+    "P0050": 2,
+    "P0162": 2,
+    "P0194": 2,
+    "P0226": 2,
+    "P0242": 2,
+    "P0386": 2,
+    "P0482": 2,
+    "P0514": 2,
+    "P0578": 2
+   }
+  },
+  {
+   "id": "S201",
+   "type": "single",
+   "turns": [
+    "I need tough enough for bad weather blue something for client meetings"
+   ],
+   "hard": {
+    "colour": "blue"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "outdoor"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0002": 1,
+    "P0010": 1,
+    "P0041": 1,
+    "P0043": 2,
+    "P0065": 1,
+    "P0095": 1,
+    "P0108": 1,
+    "P0110": 1,
+    "P0112": 1,
+    "P0124": 2,
+    "P0135": 1,
+    "P0181": 2,
+    "P0184": 2,
+    "P0219": 1,
+    "P0229": 1,
+    "P0252": 1,
+    "P0263": 1,
+    "P0282": 2,
+    "P0310": 1,
+    "P0320": 1,
+    "P0321": 1,
+    "P0332": 1,
+    "P0344": 1,
+    "P0345": 1,
+    "P0362": 1,
+    "P0376": 1,
+    "P0379": 1,
+    "P0416": 1,
+    "P0419": 1,
+    "P0429": 1,
+    "P0440": 1,
+    "P0456": 1,
+    "P0468": 1,
+    "P0472": 1,
+    "P0551": 2,
+    "P0560": 1,
+    "P0569": 1,
+    "P0581": 1
+   }
+  },
+  {
+   "id": "S202",
+   "type": "single",
+   "turns": [
+    "I need casual cream jeans under \u00a380"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "cream",
+    "max_price": 80.0
+   },
+   "soft": {
+    "style": "casual"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0196": 2,
+    "P0276": 2
+   }
+  },
+  {
+   "id": "S203",
+   "type": "single",
+   "turns": [
+    "I need burgundy jeans for lazy weekends"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0052": 2,
+    "P0324": 2,
+    "P0516": 2
+   }
+  },
+  {
+   "id": "S204",
+   "type": "single",
+   "turns": [
+    "can you find me blue rucksack for work under \u00a3140"
+   ],
+   "hard": {
+    "category": "backpack",
+    "colour": "blue",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0095": 2
+   }
+  },
+  {
+   "id": "S205",
+   "type": "single",
+   "turns": [
+    "looking for pink loafer"
+   ],
+   "hard": {
+    "category": "loafers",
+    "colour": "pink"
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0156": 2,
+    "P0204": 2,
+    "P0380": 2,
+    "P0412": 2,
+    "P0428": 2
+   }
+  },
+  {
+   "id": "S206",
+   "type": "single",
+   "turns": [
+    "boho red button-down under \u00a3140"
+   ],
+   "hard": {
+    "category": "shirt",
+    "colour": "red",
+    "max_price": 140.0
+   },
+   "soft": {
+    "style": "bohemian"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0178": 2,
+    "P0306": 2
+   }
+  },
+  {
+   "id": "S207",
+   "type": "single",
+   "turns": [
+    "I need black something for lounging by the pool"
+   ],
+   "hard": {
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0019": 2,
+    "P0035": 2,
+    "P0051": 2,
+    "P0067": 2,
+    "P0081": 2,
+    "P0083": 2,
+    "P0093": 2,
+    "P0205": 2,
+    "P0259": 2,
+    "P0275": 2,
+    "P0333": 2,
+    "P0349": 2,
+    "P0429": 2,
+    "P0467": 2,
+    "P0481": 2,
+    "P0509": 2,
+    "P0541": 2,
+    "P0545": 2,
+    "P0557": 2
+   }
+  },
+  {
+   "id": "S208",
+   "type": "single",
+   "turns": [
+    "rucksack under \u00a370"
+   ],
+   "hard": {
+    "category": "backpack",
+    "max_price": 70.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0015": 2,
+    "P0063": 2,
+    "P0079": 2,
+    "P0143": 2,
+    "P0159": 2,
+    "P0191": 2,
+    "P0239": 2,
+    "P0303": 2,
+    "P0479": 2,
+    "P0511": 2,
+    "P0575": 2
+   }
+  },
+  {
+   "id": "S209",
+   "type": "single",
+   "turns": [
+    "can you find me women's dress for lounging by the pool under \u00a3190"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 190.0,
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0065": 2,
+    "P0209": 2,
+    "P0337": 2,
+    "P0401": 2,
+    "P0481": 2,
+    "P0529": 2,
+    "P0545": 2,
+    "P0593": 2
+   }
+  },
+  {
+   "id": "S210",
+   "type": "single",
+   "turns": [
+    "can you find me sporty something for a wedding"
+   ],
+   "hard": {},
+   "soft": {
+    "occasion": "wedding",
+    "style": "sporty"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0001": 1,
+    "P0005": 1,
+    "P0006": 1,
+    "P0011": 1,
+    "P0012": 1,
+    "P0023": 1,
+    "P0029": 1,
+    "P0030": 1,
+    "P0034": 1,
+    "P0038": 2,
+    "P0044": 1,
+    "P0046": 1,
+    "P0048": 1,
+    "P0050": 1,
+    "P0058": 1,
+    "P0060": 2,
+    "P0064": 1,
+    "P0071": 1,
+    "P0076": 1,
+    "P0078": 1,
+    "P0086": 1,
+    "P0092": 1,
+    "P0094": 1,
+    "P0097": 1,
+    "P0098": 1,
+    "P0101": 1,
+    "P0103": 1,
+    "P0107": 1,
+    "P0111": 1,
+    "P0112": 1,
+    "P0117": 1,
+    "P0119": 1,
+    "P0128": 1,
+    "P0139": 1,
+    "P0140": 1,
+    "P0144": 1,
+    "P0145": 2,
+    "P0147": 1,
+    "P0155": 1,
+    "P0156": 1,
+    "P0163": 1,
+    "P0171": 1,
+    "P0172": 1,
+    "P0174": 1,
+    "P0180": 1,
+    "P0181": 1,
+    "P0182": 1,
+    "P0186": 1,
+    "P0187": 1,
+    "P0188": 2,
+    "P0192": 1,
+    "P0204": 1,
+    "P0210": 1,
+    "P0216": 1,
+    "P0220": 1,
+    "P0226": 1,
+    "P0231": 1,
+    "P0233": 1,
+    "P0235": 1,
+    "P0236": 1,
+    "P0242": 1,
+    "P0243": 1,
+    "P0252": 1,
+    "P0254": 2,
+    "P0262": 1,
+    "P0264": 1,
+    "P0267": 1,
+    "P0268": 2,
+    "P0272": 1,
+    "P0273": 1,
+    "P0274": 1,
+    "P0277": 1,
+    "P0278": 1,
+    "P0283": 2,
+    "P0284": 1,
+    "P0285": 1,
+    "P0290": 1,
+    "P0291": 1,
+    "P0294": 1,
+    "P0299": 1,
+    "P0305": 2,
+    "P0308": 1,
+    "P0309": 1,
+    "P0315": 1,
+    "P0318": 1,
+    "P0319": 1,
+    "P0321": 2,
+    "P0322": 1,
+    "P0323": 1,
+    "P0330": 1,
+    "P0331": 1,
+    "P0338": 1,
+    "P0340": 1,
+    "P0342": 1,
+    "P0344": 1,
+    "P0347": 2,
+    "P0357": 1,
+    "P0358": 1,
+    "P0364": 1,
+    "P0366": 1,
+    "P0368": 1,
+    "P0374": 1,
+    "P0375": 1,
+    "P0377": 1,
+    "P0382": 1,
+    "P0384": 1,
+    "P0386": 1,
+    "P0391": 1,
+    "P0395": 1,
+    "P0398": 2,
+    "P0400": 1,
+    "P0410": 1,
+    "P0411": 1,
+    "P0412": 1,
+    "P0418": 1,
+    "P0420": 1,
+    "P0421": 1,
+    "P0422": 1,
+    "P0426": 1,
+    "P0428": 1,
+    "P0433": 1,
+    "P0434": 1,
+    "P0437": 2,
+    "P0438": 1,
+    "P0443": 1,
+    "P0446": 1,
+    "P0448": 1,
+    "P0450": 1,
+    "P0452": 1,
+    "P0454": 1,
+    "P0459": 1,
+    "P0460": 1,
+    "P0461": 1,
+    "P0462": 1,
+    "P0466": 1,
+    "P0469": 1,
+    "P0470": 2,
+    "P0480": 1,
+    "P0481": 1,
+    "P0482": 1,
+    "P0485": 1,
+    "P0489": 1,
+    "P0491": 1,
+    "P0493": 1,
+    "P0497": 1,
+    "P0498": 1,
+    "P0508": 2,
+    "P0512": 1,
+    "P0514": 1,
+    "P0517": 1,
+    "P0518": 1,
+    "P0521": 1,
+    "P0523": 1,
+    "P0524": 2,
+    "P0528": 1,
+    "P0534": 1,
+    "P0539": 1,
+    "P0544": 1,
+    "P0546": 2,
+    "P0555": 1,
+    "P0556": 1,
+    "P0562": 1,
+    "P0571": 2,
+    "P0575": 1,
+    "P0576": 1,
+    "P0577": 1,
+    "P0586": 1,
+    "P0587": 1,
+    "P0588": 1,
+    "P0594": 1
+   }
+  },
+  {
+   "id": "S211",
+   "type": "single",
+   "turns": [
+    "any athleisure button-up for a romantic evening under \u00a390?"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 90.0
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "sporty"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0002": 1,
+    "P0018": 1,
+    "P0050": 2,
+    "P0082": 1,
+    "P0114": 1,
+    "P0178": 1,
+    "P0194": 1,
+    "P0258": 1,
+    "P0322": 2,
+    "P0386": 1,
+    "P0450": 2,
+    "P0514": 2,
+    "P0530": 1,
+    "P0546": 1,
+    "P0578": 1
+   }
+  },
+  {
+   "id": "S212",
+   "type": "single",
+   "turns": [
+    "looking for trainer for the gym under \u00a3140"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 140.0
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0041": 2,
+    "P0057": 2,
+    "P0105": 2,
+    "P0137": 2,
+    "P0169": 2,
+    "P0185": 2,
+    "P0217": 2,
+    "P0233": 2,
+    "P0249": 2,
+    "P0281": 2,
+    "P0313": 2,
+    "P0345": 2,
+    "P0361": 2,
+    "P0377": 2,
+    "P0393": 2,
+    "P0425": 2,
+    "P0457": 2,
+    "P0473": 2,
+    "P0489": 2,
+    "P0521": 2,
+    "P0537": 2,
+    "P0553": 2,
+    "P0569": 2
+   }
+  },
+  {
+   "id": "S213",
+   "type": "single",
+   "turns": [
+    "nothing flashy cream something for hillwalking in the Lakes"
+   ],
+   "hard": {
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "hiking",
+    "style": "minimalist"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0025": 1,
+    "P0042": 1,
+    "P0059": 1,
+    "P0070": 1,
+    "P0071": 1,
+    "P0079": 1,
+    "P0118": 2,
+    "P0142": 1,
+    "P0183": 2,
+    "P0185": 1,
+    "P0202": 2,
+    "P0214": 1,
+    "P0215": 1,
+    "P0218": 2,
+    "P0223": 1,
+    "P0272": 1,
+    "P0282": 1,
+    "P0304": 1,
+    "P0311": 1,
+    "P0331": 1,
+    "P0376": 1,
+    "P0377": 1,
+    "P0383": 2,
+    "P0410": 1,
+    "P0411": 1,
+    "P0413": 1,
+    "P0429": 1,
+    "P0441": 1,
+    "P0442": 1,
+    "P0460": 1,
+    "P0471": 1,
+    "P0519": 2,
+    "P0531": 1,
+    "P0543": 1,
+    "P0562": 1,
+    "P0574": 1
+   }
+  },
+  {
+   "id": "S214",
+   "type": "single",
+   "turns": [
+    "can you find me classic red t-shirts under \u00a370"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "colour": "red",
+    "max_price": 70.0
+   },
+   "soft": {
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0019": 2,
+    "P0179": 2,
+    "P0243": 2,
+    "P0323": 2,
+    "P0339": 2,
+    "P0435": 2,
+    "P0563": 2
+   }
+  },
+  {
+   "id": "S215",
+   "type": "single",
+   "turns": [
+    "can you find me chilled pink slacks for my nine-to-five"
+   ],
+   "hard": {
+    "category": "trousers",
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "office",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0021": 1,
+    "P0133": 1,
+    "P0165": 1,
+    "P0229": 2,
+    "P0261": 2
+   }
+  },
+  {
+   "id": "S216",
+   "type": "single",
+   "turns": [
+    "can you find me burgundy trousers for the office"
+   ],
+   "hard": {
+    "category": "trousers",
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0021": 2,
+    "P0085": 2,
+    "P0261": 2,
+    "P0357": 2
+   }
+  },
+  {
+   "id": "S217",
+   "type": "single",
+   "turns": [
+    "can you find me grungy pink something for hillwalking in the Lakes under \u00a3280"
+   ],
+   "hard": {
+    "colour": "pink",
+    "max_price": 280.0
+   },
+   "soft": {
+    "occasion": "hiking",
+    "style": "edgy"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0034": 1,
+    "P0055": 1,
+    "P0056": 1,
+    "P0303": 1,
+    "P0319": 1,
+    "P0380": 1,
+    "P0387": 1,
+    "P0438": 1,
+    "P0447": 1,
+    "P0539": 1,
+    "P0598": 2
+   }
+  },
+  {
+   "id": "S218",
+   "type": "single",
+   "turns": [
+    "I need rugged pants for a wedding"
+   ],
+   "hard": {
+    "category": "trousers"
+   },
+   "soft": {
+    "occasion": "wedding",
+    "style": "outdoor"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0005": 1,
+    "P0101": 1,
+    "P0117": 1,
+    "P0149": 1,
+    "P0181": 2,
+    "P0245": 1,
+    "P0277": 1,
+    "P0309": 1,
+    "P0357": 1,
+    "P0421": 1,
+    "P0437": 1,
+    "P0469": 1,
+    "P0485": 1,
+    "P0517": 1
+   }
+  },
+  {
+   "id": "S219",
+   "type": "single",
+   "turns": [
+    "chilled tan rucksack for running errands under \u00a3130"
+   ],
+   "hard": {
+    "category": "backpack",
+    "colour": "tan",
+    "max_price": 130.0
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0175": 1,
+    "P0255": 2
+   }
+  },
+  {
+   "id": "S220",
+   "type": "single",
+   "turns": [
+    "daypack for the office under \u00a3160"
+   ],
+   "hard": {
+    "category": "backpack",
+    "max_price": 160.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0015": 2,
+    "P0047": 2,
+    "P0079": 2,
+    "P0095": 2,
+    "P0143": 2,
+    "P0159": 2,
+    "P0175": 2,
+    "P0191": 2,
+    "P0223": 2,
+    "P0287": 2,
+    "P0335": 2,
+    "P0383": 2,
+    "P0431": 2,
+    "P0495": 2,
+    "P0511": 2,
+    "P0559": 2
+   }
+  },
+  {
+   "id": "S221",
+   "type": "single",
+   "turns": [
+    "burgundy puffer for lazy weekends"
+   ],
+   "hard": {
+    "category": "coat",
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0023": 2,
+    "P0487": 2,
+    "P0503": 2
+   }
+  },
+  {
+   "id": "S222",
+   "type": "single",
+   "turns": [
+    "can you find me classic something for everyday wear under \u00a370"
+   ],
+   "hard": {
+    "max_price": 70.0
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0001": 2,
+    "P0002": 1,
+    "P0003": 1,
+    "P0018": 1,
+    "P0019": 2,
+    "P0029": 1,
+    "P0034": 1,
+    "P0040": 2,
+    "P0051": 1,
+    "P0057": 1,
+    "P0061": 1,
+    "P0063": 1,
+    "P0067": 1,
+    "P0069": 1,
+    "P0077": 2,
+    "P0082": 1,
+    "P0083": 2,
+    "P0085": 1,
+    "P0098": 1,
+    "P0109": 1,
+    "P0115": 1,
+    "P0131": 1,
+    "P0132": 1,
+    "P0137": 1,
+    "P0143": 1,
+    "P0147": 1,
+    "P0159": 2,
+    "P0163": 2,
+    "P0165": 1,
+    "P0179": 1,
+    "P0188": 1,
+    "P0189": 2,
+    "P0195": 1,
+    "P0205": 1,
+    "P0211": 2,
+    "P0216": 1,
+    "P0221": 1,
+    "P0229": 1,
+    "P0233": 1,
+    "P0243": 2,
+    "P0253": 1,
+    "P0274": 1,
+    "P0276": 1,
+    "P0285": 1,
+    "P0291": 1,
+    "P0303": 1,
+    "P0307": 1,
+    "P0308": 1,
+    "P0323": 2,
+    "P0333": 1,
+    "P0336": 1,
+    "P0339": 2,
+    "P0349": 1,
+    "P0360": 2,
+    "P0361": 1,
+    "P0365": 1,
+    "P0372": 1,
+    "P0387": 1,
+    "P0393": 2,
+    "P0397": 1,
+    "P0403": 1,
+    "P0404": 1,
+    "P0413": 1,
+    "P0418": 1,
+    "P0419": 1,
+    "P0429": 1,
+    "P0435": 1,
+    "P0451": 1,
+    "P0456": 1,
+    "P0473": 1,
+    "P0479": 1,
+    "P0482": 1,
+    "P0489": 1,
+    "P0493": 2,
+    "P0499": 1,
+    "P0510": 1,
+    "P0514": 1,
+    "P0515": 1,
+    "P0525": 2,
+    "P0530": 1,
+    "P0531": 1,
+    "P0541": 1,
+    "P0547": 1,
+    "P0549": 1,
+    "P0563": 2,
+    "P0564": 1,
+    "P0575": 1,
+    "P0579": 1,
+    "P0589": 1,
+    "P0594": 1,
+    "P0595": 2
+   }
+  },
+  {
+   "id": "S223",
+   "type": "single",
+   "turns": [
+    "can you find me ivy league look green timepiece under \u00a3250"
+   ],
+   "hard": {
+    "category": "watch",
+    "colour": "green",
+    "max_price": 250.0
+   },
+   "soft": {
+    "style": "preppy"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0560": 2
+   }
+  },
+  {
+   "id": "S224",
+   "type": "single",
+   "turns": [
+    "looking for women's jacket for everyday wear under \u00a3120"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 120.0,
+    "gender": "women"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0150": 2,
+    "P0342": 2,
+    "P0534": 2
+   }
+  },
+  {
+   "id": "S225",
+   "type": "single",
+   "turns": [
+    "olive something for hillwalking in the Lakes under \u00a3150"
+   ],
+   "hard": {
+    "colour": "olive",
+    "max_price": 150.0
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0207": 2,
+    "P0294": 2,
+    "P0319": 2,
+    "P0410": 2,
+    "P0486": 2
+   }
+  },
+  {
+   "id": "S226",
+   "type": "single",
+   "turns": [
+    "any navy jackets under \u00a3390?"
+   ],
+   "hard": {
+    "category": "jacket",
+    "colour": "navy",
+    "max_price": 390.0
+   },
+   "soft": {},
+   "phrasing": "no_soft",
+   "vague": false,
+   "relevance": {
+    "P0118": 2,
+    "P0150": 2,
+    "P0198": 2,
+    "P0326": 2,
+    "P0390": 2,
+    "P0470": 2
+   }
+  },
+  {
+   "id": "S227",
+   "type": "single",
+   "turns": [
+    "I need brown pumps for my nine-to-five under \u00a3210"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "brown",
+    "max_price": 210.0
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0395": 2,
+    "P0507": 2,
+    "P0539": 2
+   }
+  },
+  {
+   "id": "S228",
+   "type": "single",
+   "turns": [
+    "any classic beige trainer for everyday wear under \u00a380?"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "beige",
+    "max_price": 80.0
+   },
+   "soft": {
+    "occasion": "everyday",
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0393": 2
+   }
+  },
+  {
+   "id": "S229",
+   "type": "single",
+   "turns": [
+    "can you find me chilled cream something for a romantic evening"
+   ],
+   "hard": {
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "date night",
+    "style": "casual"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0036": 1,
+    "P0043": 1,
+    "P0045": 1,
+    "P0052": 1,
+    "P0079": 1,
+    "P0082": 1,
+    "P0084": 1,
+    "P0097": 1,
+    "P0117": 1,
+    "P0121": 1,
+    "P0152": 2,
+    "P0187": 1,
+    "P0192": 1,
+    "P0196": 2,
+    "P0214": 1,
+    "P0215": 1,
+    "P0220": 1,
+    "P0226": 1,
+    "P0250": 1,
+    "P0276": 2,
+    "P0296": 1,
+    "P0299": 1,
+    "P0304": 1,
+    "P0308": 1,
+    "P0311": 1,
+    "P0321": 1,
+    "P0330": 1,
+    "P0338": 1,
+    "P0340": 2,
+    "P0366": 1,
+    "P0367": 1,
+    "P0383": 1,
+    "P0385": 1,
+    "P0392": 1,
+    "P0395": 1,
+    "P0396": 1,
+    "P0405": 1,
+    "P0410": 1,
+    "P0411": 1,
+    "P0413": 1,
+    "P0424": 2,
+    "P0427": 1,
+    "P0428": 1,
+    "P0442": 1,
+    "P0448": 1,
+    "P0477": 1,
+    "P0478": 1,
+    "P0499": 1,
+    "P0532": 1,
+    "P0536": 1,
+    "P0543": 1,
+    "P0563": 1,
+    "P0573": 1,
+    "P0588": 1
+   }
+  },
+  {
+   "id": "S230",
+   "type": "single",
+   "turns": [
+    "I need green something for the gym"
+   ],
+   "hard": {
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0035": 2,
+    "P0041": 2,
+    "P0217": 2,
+    "P0233": 2,
+    "P0281": 2,
+    "P0371": 2,
+    "P0373": 2,
+    "P0389": 2,
+    "P0403": 2,
+    "P0432": 2,
+    "P0533": 2,
+    "P0565": 2
+   }
+  },
+  {
+   "id": "S231",
+   "type": "single",
+   "turns": [
+    "looking for white something for lazy weekends under \u00a360"
+   ],
+   "hard": {
+    "colour": "white",
+    "max_price": 60.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0029": 2,
+    "P0085": 2,
+    "P0109": 2,
+    "P0115": 2,
+    "P0131": 2,
+    "P0159": 2,
+    "P0188": 2,
+    "P0229": 2,
+    "P0360": 2,
+    "P0387": 2,
+    "P0403": 2,
+    "P0473": 2,
+    "P0514": 2,
+    "P0515": 2
+   }
+  },
+  {
+   "id": "S232",
+   "type": "single",
+   "turns": [
+    "burgundy something for the gym"
+   ],
+   "hard": {
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": true,
+   "relevance": {
+    "P0016": 2,
+    "P0025": 2,
+    "P0089": 2,
+    "P0133": 2,
+    "P0176": 2,
+    "P0211": 2,
+    "P0304": 2,
+    "P0329": 2,
+    "P0361": 2,
+    "P0371": 2,
+    "P0400": 2,
+    "P0435": 2,
+    "P0473": 2,
+    "P0537": 2
+   }
+  },
+  {
+   "id": "S233",
+   "type": "single",
+   "turns": [
+    "looking for white running shoes for lazy weekends under \u00a3160"
+   ],
+   "hard": {
+    "category": "trainers",
+    "colour": "white",
+    "max_price": 160.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0009": 2,
+    "P0041": 2,
+    "P0057": 2,
+    "P0185": 2,
+    "P0217": 2,
+    "P0473": 2,
+    "P0569": 2
+   }
+  },
+  {
+   "id": "S234",
+   "type": "single",
+   "turns": [
+    "men's minimal black denims under \u00a3100"
+   ],
+   "hard": {
+    "category": "jeans",
+    "colour": "black",
+    "max_price": 100.0,
+    "gender": "men"
+   },
+   "soft": {
+    "style": "minimalist"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0388": 2
+   }
+  },
+  {
+   "id": "S235",
+   "type": "single",
+   "turns": [
+    "tough enough for bad weather red pumps under \u00a3110"
+   ],
+   "hard": {
+    "category": "heels",
+    "colour": "red",
+    "max_price": 110.0
+   },
+   "soft": {
+    "style": "outdoor"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0555": 2
+   }
+  },
+  {
+   "id": "S236",
+   "type": "single",
+   "turns": [
+    "I need loafer for work"
+   ],
+   "hard": {
+    "category": "loafers"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0028": 2,
+    "P0108": 2,
+    "P0124": 2,
+    "P0220": 2,
+    "P0252": 2,
+    "P0268": 2,
+    "P0284": 2,
+    "P0300": 2,
+    "P0332": 2,
+    "P0380": 2,
+    "P0396": 2,
+    "P0412": 2,
+    "P0428": 2,
+    "P0444": 2,
+    "P0572": 2
+   }
+  },
+  {
+   "id": "S237",
+   "type": "single",
+   "turns": [
+    "can you find me pumps for a summer ceremony under \u00a3230"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 230.0
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "heldout",
+   "vague": false,
+   "relevance": {
+    "P0107": 2,
+    "P0139": 2,
+    "P0155": 2,
+    "P0171": 2,
+    "P0187": 2,
+    "P0235": 2,
+    "P0267": 2,
+    "P0283": 2,
+    "P0299": 2,
+    "P0315": 2,
+    "P0331": 2,
+    "P0347": 2,
+    "P0395": 2,
+    "P0411": 2,
+    "P0443": 2,
+    "P0459": 2,
+    "P0539": 2,
+    "P0555": 2,
+    "P0571": 2,
+    "P0587": 2
+   }
+  },
+  {
+   "id": "S238",
+   "type": "single",
+   "turns": [
+    "any women's classic jeans under \u00a3120?"
+   ],
+   "hard": {
+    "category": "jeans",
+    "max_price": 120.0,
+    "gender": "women"
+   },
+   "soft": {
+    "style": "classic"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0004": 2,
+    "P0068": 2,
+    "P0148": 2,
+    "P0276": 2
+   }
+  },
+  {
+   "id": "S239",
+   "type": "single",
+   "turns": [
+    "I need red something for running errands under \u00a350"
+   ],
+   "hard": {
+    "colour": "red",
+    "max_price": 50.0
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "heldout",
+   "vague": true,
+   "relevance": {
+    "P0002": 2,
+    "P0109": 2,
+    "P0243": 2,
+    "P0323": 2,
+    "P0473": 2,
+    "P0482": 2,
+    "P0489": 2,
+    "P0563": 2,
+    "P0579": 2,
+    "P0589": 2
+   }
+  }
+ ],
+ "multi": [
+  {
+   "id": "M000",
+   "type": "multi",
+   "turns": [
+    "I need some boot for hiking",
+    "ideally under \u00a3260",
+    "green would be best"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 260.0,
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "hiking"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0234": 2,
+    "P0442": 2,
+    "P0506": 2
+   }
+  },
+  {
+   "id": "M001",
+   "type": "multi",
+   "turns": [
+    "I need some pumps for a party",
+    "my budget is \u00a3150",
+    "brown would be best"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 150.0,
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "party"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0475": 2
+   }
+  },
+  {
+   "id": "M002",
+   "type": "multi",
+   "turns": [
+    "I need some knit for everyday wear",
+    "can we keep it under \u00a3160?",
+    "do you have them in black"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 160.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0088": 2,
+    "P0408": 2
+   }
+  },
+  {
+   "id": "M003",
+   "type": "multi",
+   "turns": [
+    "I need some knitwear for a dinner date",
+    "can we keep it under \u00a3180?",
+    "any in black?"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 180.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0088": 2,
+    "P0168": 2,
+    "P0200": 2,
+    "P0312": 2,
+    "P0328": 2,
+    "P0552": 2
+   }
+  },
+  {
+   "id": "M004",
+   "type": "multi",
+   "turns": [
+    "I need some gown for the office",
+    "my budget is \u00a3190",
+    "any in cream?"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 190.0,
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0129": 2,
+    "P0321": 2
+   }
+  },
+  {
+   "id": "M005",
+   "type": "multi",
+   "turns": [
+    "I need some daypack for the office",
+    "ideally under \u00a3150",
+    "do you have them in green"
+   ],
+   "hard": {
+    "category": "backpack",
+    "max_price": 150.0,
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0047": 2,
+    "P0143": 2,
+    "P0175": 2,
+    "P0191": 2,
+    "P0559": 2
+   }
+  },
+  {
+   "id": "M006",
+   "type": "multi",
+   "turns": [
+    "I need some slacks for a wedding",
+    "can we keep it under \u00a3150?",
+    "do you have them in cream"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 150.0,
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0101": 2,
+    "P0117": 2
+   }
+  },
+  {
+   "id": "M007",
+   "type": "multi",
+   "turns": [
+    "I need some blazer for a wedding",
+    "ideally under \u00a370",
+    "any in black?"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 70.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0262": 2
+   }
+  },
+  {
+   "id": "M008",
+   "type": "multi",
+   "turns": [
+    "I need some heels for the office",
+    "ideally under \u00a3120",
+    "grey would be best"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 120.0,
+    "colour": "grey"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0027": 2,
+    "P0299": 2,
+    "P0523": 2
+   }
+  },
+  {
+   "id": "M009",
+   "type": "multi",
+   "turns": [
+    "I need some blazer for everyday wear",
+    "ideally under \u00a3220",
+    "any in brown?"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 220.0,
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0150": 2,
+    "P0166": 2,
+    "P0566": 2
+   }
+  },
+  {
+   "id": "M010",
+   "type": "multi",
+   "turns": [
+    "I need some frock for everyday wear",
+    "my budget is \u00a3130",
+    "red would be best"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 130.0,
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0353": 2
+   }
+  },
+  {
+   "id": "M011",
+   "type": "multi",
+   "turns": [
+    "I need some joggers for everyday wear",
+    "my budget is \u00a3100",
+    "do you have them in red"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 100.0,
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0037": 2,
+    "P0597": 2
+   }
+  },
+  {
+   "id": "M012",
+   "type": "multi",
+   "turns": [
+    "I need some parka for the office",
+    "ideally under \u00a3110",
+    "any in green?"
+   ],
+   "hard": {
+    "category": "coat",
+    "max_price": 110.0,
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0455": 2
+   }
+  },
+  {
+   "id": "M013",
+   "type": "multi",
+   "turns": [
+    "I need some denims for everyday wear",
+    "can we keep it under \u00a3100?",
+    "red would be best"
+   ],
+   "hard": {
+    "category": "jeans",
+    "max_price": 100.0,
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0356": 2,
+    "P0452": 2
+   }
+  },
+  {
+   "id": "M014",
+   "type": "multi",
+   "turns": [
+    "I need some dress for a dinner date",
+    "can we keep it under \u00a370?",
+    "any in burgundy?"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 70.0,
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0161": 2
+   }
+  },
+  {
+   "id": "M015",
+   "type": "multi",
+   "turns": [
+    "I need some dress for the office",
+    "can we keep it under \u00a3130?",
+    "do you have them in pink"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 130.0,
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0033": 2,
+    "P0369": 2
+   }
+  },
+  {
+   "id": "M016",
+   "type": "multi",
+   "turns": [
+    "I need some loafer for a wedding",
+    "my budget is \u00a3100",
+    "olive would be best"
+   ],
+   "hard": {
+    "category": "loafers",
+    "max_price": 100.0,
+    "colour": "olive"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0076": 2
+   }
+  },
+  {
+   "id": "M017",
+   "type": "multi",
+   "turns": [
+    "I need some watches for the gym",
+    "ideally under \u00a3110",
+    "any in black?"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 110.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0496": 2
+   }
+  },
+  {
+   "id": "M018",
+   "type": "multi",
+   "turns": [
+    "I need some timepiece for everyday wear",
+    "ideally under \u00a3240",
+    "do you have them in navy"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 240.0,
+    "colour": "navy"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0048": 2
+   }
+  },
+  {
+   "id": "M019",
+   "type": "multi",
+   "turns": [
+    "I need some trainers for everyday wear",
+    "can we keep it under \u00a3150?",
+    "any in navy?"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 150.0,
+    "colour": "navy"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0073": 2,
+    "P0153": 2,
+    "P0313": 2,
+    "P0377": 2
+   }
+  },
+  {
+   "id": "M020",
+   "type": "multi",
+   "turns": [
+    "I need some sweater for a dinner date",
+    "my budget is \u00a3200",
+    "do you have them in green"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 200.0,
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0152": 2
+   }
+  },
+  {
+   "id": "M021",
+   "type": "multi",
+   "turns": [
+    "I need some heels for the office",
+    "ideally under \u00a3290",
+    "do you have them in olive"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 290.0,
+    "colour": "olive"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0043": 2,
+    "P0203": 2,
+    "P0219": 2
+   }
+  },
+  {
+   "id": "M022",
+   "type": "multi",
+   "turns": [
+    "I need some shirts for the office",
+    "ideally under \u00a360",
+    "grey would be best"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 60.0,
+    "colour": "grey"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0114": 2,
+    "P0146": 2
+   }
+  },
+  {
+   "id": "M023",
+   "type": "multi",
+   "turns": [
+    "I need some button-up for a dinner date",
+    "my budget is \u00a3140",
+    "any in tan?"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 140.0,
+    "colour": "tan"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0018": 2,
+    "P0066": 2,
+    "P0082": 2,
+    "P0338": 2
+   }
+  },
+  {
+   "id": "M024",
+   "type": "multi",
+   "turns": [
+    "I need some chinos for everyday wear",
+    "can we keep it under \u00a3130?",
+    "any in beige?"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 130.0,
+    "colour": "beige"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0053": 2,
+    "P0309": 2,
+    "P0453": 2,
+    "P0581": 2
+   }
+  },
+  {
+   "id": "M025",
+   "type": "multi",
+   "turns": [
+    "I need some t-shirt for the gym",
+    "can we keep it under \u00a310?",
+    "any in grey?"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "max_price": 10.0,
+    "colour": "grey"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0435": 2
+   }
+  },
+  {
+   "id": "M026",
+   "type": "multi",
+   "turns": [
+    "I need some pants for everyday wear",
+    "ideally under \u00a3130",
+    "red would be best"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 130.0,
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0037": 2,
+    "P0341": 2,
+    "P0597": 2
+   }
+  },
+  {
+   "id": "M027",
+   "type": "multi",
+   "turns": [
+    "I need some overcoat for the office",
+    "my budget is \u00a3380",
+    "do you have them in cream"
+   ],
+   "hard": {
+    "category": "coat",
+    "max_price": 380.0,
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0071": 2,
+    "P0183": 2,
+    "P0375": 2
+   }
+  },
+  {
+   "id": "M028",
+   "type": "multi",
+   "turns": [
+    "I need some bomber for a dinner date",
+    "ideally under \u00a3330",
+    "do you have them in burgundy"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 330.0,
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0022": 2,
+    "P0038": 2,
+    "P0102": 2,
+    "P0150": 2,
+    "P0214": 2,
+    "P0390": 2
+   }
+  },
+  {
+   "id": "M029",
+   "type": "multi",
+   "turns": [
+    "I need some running shoes for everyday wear",
+    "ideally under \u00a3130",
+    "cream would be best"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 130.0,
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0185": 2,
+    "P0377": 2
+   }
+  },
+  {
+   "id": "M030",
+   "type": "multi",
+   "turns": [
+    "I need some pants for the office",
+    "ideally under \u00a350",
+    "tan would be best"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 50.0,
+    "colour": "tan"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0245": 2
+   }
+  },
+  {
+   "id": "M031",
+   "type": "multi",
+   "turns": [
+    "I need some blouse for a dinner date",
+    "can we keep it under \u00a360?",
+    "do you have them in olive"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 60.0,
+    "colour": "olive"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0450": 2,
+    "P0530": 2
+   }
+  },
+  {
+   "id": "M032",
+   "type": "multi",
+   "turns": [
+    "I need some sneakers for the gym",
+    "my budget is \u00a3120",
+    "any in pink?"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 120.0,
+    "colour": "pink"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0249": 2,
+    "P0537": 2
+   }
+  },
+  {
+   "id": "M033",
+   "type": "multi",
+   "turns": [
+    "I need some boots for the office",
+    "ideally under \u00a3290",
+    "do you have them in olive"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 290.0,
+    "colour": "olive"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0026": 2,
+    "P0122": 2,
+    "P0410": 2
+   }
+  },
+  {
+   "id": "M034",
+   "type": "multi",
+   "turns": [
+    "I need some slides for everyday wear",
+    "ideally under \u00a3100",
+    "do you have them in black"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 100.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0205": 2,
+    "P0237": 2,
+    "P0333": 2,
+    "P0413": 2,
+    "P0429": 2,
+    "P0509": 2,
+    "P0525": 2,
+    "P0541": 2
+   }
+  },
+  {
+   "id": "M035",
+   "type": "multi",
+   "turns": [
+    "I need some daypack for the office",
+    "can we keep it under \u00a340?",
+    "any in cream?"
+   ],
+   "hard": {
+    "category": "backpack",
+    "max_price": 40.0,
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0079": 2
+   }
+  },
+  {
+   "id": "M036",
+   "type": "multi",
+   "turns": [
+    "I need some denims for everyday wear",
+    "ideally under \u00a370",
+    "navy would be best"
+   ],
+   "hard": {
+    "category": "jeans",
+    "max_price": 70.0,
+    "colour": "navy"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0132": 2,
+    "P0404": 2
+   }
+  },
+  {
+   "id": "M037",
+   "type": "multi",
+   "turns": [
+    "I need some watch for a wedding",
+    "can we keep it under \u00a3500?",
+    "do you have them in green"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 500.0,
+    "colour": "green"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0384": 2,
+    "P0544": 2
+   }
+  },
+  {
+   "id": "M038",
+   "type": "multi",
+   "turns": [
+    "I need some trainer for the gym",
+    "my budget is \u00a360",
+    "red would be best"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 60.0,
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "gym"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0361": 2,
+    "P0473": 2,
+    "P0489": 2
+   }
+  },
+  {
+   "id": "M039",
+   "type": "multi",
+   "turns": [
+    "I need some clutch for a party",
+    "can we keep it under \u00a3130?",
+    "any in beige?"
+   ],
+   "hard": {
+    "category": "handbag",
+    "max_price": 130.0,
+    "colour": "beige"
+   },
+   "soft": {
+    "occasion": "party"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0158": 2
+   }
+  },
+  {
+   "id": "M040",
+   "type": "multi",
+   "turns": [
+    "I need some blouse for the office",
+    "ideally under \u00a360",
+    "any in white?"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 60.0,
+    "colour": "white"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0146": 2,
+    "P0258": 2
+   }
+  },
+  {
+   "id": "M041",
+   "type": "multi",
+   "turns": [
+    "I need some jackets for everyday wear",
+    "can we keep it under \u00a3190?",
+    "blue would be best"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 190.0,
+    "colour": "blue"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0310": 2
+   }
+  },
+  {
+   "id": "M042",
+   "type": "multi",
+   "turns": [
+    "I need some bomber for a wedding",
+    "ideally under \u00a3140",
+    "any in olive?"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 140.0,
+    "colour": "olive"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0086": 2,
+    "P0294": 2
+   }
+  },
+  {
+   "id": "M043",
+   "type": "multi",
+   "turns": [
+    "I need some pants for the office",
+    "my budget is \u00a370",
+    "do you have them in brown"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 70.0,
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0069": 2,
+    "P0085": 2,
+    "P0229": 2
+   }
+  },
+  {
+   "id": "M044",
+   "type": "multi",
+   "turns": [
+    "I need some sandals for a beach holiday",
+    "ideally under \u00a380",
+    "red would be best"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 80.0,
+    "colour": "red"
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0109": 2,
+    "P0285": 2,
+    "P0589": 2
+   }
+  },
+  {
+   "id": "M045",
+   "type": "multi",
+   "turns": [
+    "I need some jumpers for a dinner date",
+    "ideally under \u00a3170",
+    "any in beige?"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 170.0,
+    "colour": "beige"
+   },
+   "soft": {
+    "occasion": "date night"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0200": 2,
+    "P0536": 2,
+    "P0584": 2
+   }
+  },
+  {
+   "id": "M046",
+   "type": "multi",
+   "turns": [
+    "I need some watch for the office",
+    "my budget is \u00a3350",
+    "do you have them in black"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 350.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0080": 2,
+    "P0560": 2
+   }
+  },
+  {
+   "id": "M047",
+   "type": "multi",
+   "turns": [
+    "I need some jeans for everyday wear",
+    "can we keep it under \u00a3100?",
+    "do you have them in black"
+   ],
+   "hard": {
+    "category": "jeans",
+    "max_price": 100.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0020": 2,
+    "P0132": 2,
+    "P0356": 2,
+    "P0388": 2,
+    "P0500": 2,
+    "P0516": 2
+   }
+  },
+  {
+   "id": "M048",
+   "type": "multi",
+   "turns": [
+    "I need some dresses for everyday wear",
+    "my budget is \u00a3150",
+    "grey would be best"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 150.0,
+    "colour": "grey"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0225": 2,
+    "P0353": 2,
+    "P0449": 2
+   }
+  },
+  {
+   "id": "M049",
+   "type": "multi",
+   "turns": [
+    "I need some slides for a beach holiday",
+    "can we keep it under \u00a360?",
+    "any in navy?"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 60.0,
+    "colour": "navy"
+   },
+   "soft": {
+    "occasion": "beach holiday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0093": 2,
+    "P0189": 2,
+    "P0333": 2,
+    "P0589": 2
+   }
+  },
+  {
+   "id": "M050",
+   "type": "multi",
+   "turns": [
+    "I need some joggers for the office",
+    "ideally under \u00a3120",
+    "any in olive?"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 120.0,
+    "colour": "olive"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0069": 2,
+    "P0181": 2,
+    "P0197": 2,
+    "P0581": 2
+   }
+  },
+  {
+   "id": "M051",
+   "type": "multi",
+   "turns": [
+    "I need some chinos for a wedding",
+    "can we keep it under \u00a3110?",
+    "do you have them in black"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 110.0,
+    "colour": "black"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0005": 2,
+    "P0421": 2
+   }
+  },
+  {
+   "id": "M052",
+   "type": "multi",
+   "turns": [
+    "I need some clutch for a party",
+    "ideally under \u00a3430",
+    "do you have them in olive"
+   ],
+   "hard": {
+    "category": "handbag",
+    "max_price": 430.0,
+    "colour": "olive"
+   },
+   "soft": {
+    "occasion": "party"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0302": 2
+   }
+  },
+  {
+   "id": "M053",
+   "type": "multi",
+   "turns": [
+    "I need some jumpers for everyday wear",
+    "can we keep it under \u00a3160?",
+    "navy would be best"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 160.0,
+    "colour": "navy"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0136": 2,
+    "P0472": 2
+   }
+  },
+  {
+   "id": "M054",
+   "type": "multi",
+   "turns": [
+    "I need some jumper for everyday wear",
+    "ideally under \u00a3100",
+    "burgundy would be best"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 100.0,
+    "colour": "burgundy"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0216": 2,
+    "P0424": 2
+   }
+  },
+  {
+   "id": "M055",
+   "type": "multi",
+   "turns": [
+    "I need some dress for the office",
+    "my budget is \u00a380",
+    "any in brown?"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 80.0,
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0049": 2
+   }
+  },
+  {
+   "id": "M056",
+   "type": "multi",
+   "turns": [
+    "I need some slides for everyday wear",
+    "ideally under \u00a380",
+    "do you have them in cream"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 80.0,
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0221": 2,
+    "P0413": 2,
+    "P0429": 2,
+    "P0477": 2
+   }
+  },
+  {
+   "id": "M057",
+   "type": "multi",
+   "turns": [
+    "I need some flip flops for everyday wear",
+    "ideally under \u00a330",
+    "any in blue?"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 30.0,
+    "colour": "blue"
+   },
+   "soft": {
+    "occasion": "everyday"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0429": 2
+   }
+  },
+  {
+   "id": "M058",
+   "type": "multi",
+   "turns": [
+    "I need some knit for the office",
+    "can we keep it under \u00a3240?",
+    "brown would be best"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 240.0,
+    "colour": "brown"
+   },
+   "soft": {
+    "occasion": "office"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0024": 2,
+    "P0056": 2,
+    "P0072": 2,
+    "P0296": 2
+   }
+  },
+  {
+   "id": "M059",
+   "type": "multi",
+   "turns": [
+    "I need some stilettos for a wedding",
+    "can we keep it under \u00a3130?",
+    "any in cream?"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 130.0,
+    "colour": "cream"
+   },
+   "soft": {
+    "occasion": "wedding"
+   },
+   "phrasing": "seen",
+   "vague": false,
+   "relevance": {
+    "P0187": 2,
+    "P0299": 2,
+    "P0411": 2
+   }
+  }
+ ],
+ "out_of_catalogue": [
+  {
+   "id": "O000",
+   "type": "out_of_catalogue",
+   "turns": [
+    "do you sell a PS5?"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O001",
+   "type": "out_of_catalogue",
+   "turns": [
+    "I'm looking for a lawn mower"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O002",
+   "type": "out_of_catalogue",
+   "turns": [
+    "an iPhone case under \u00a350"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O003",
+   "type": "out_of_catalogue",
+   "turns": [
+    "can I get garden furniture"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O004",
+   "type": "out_of_catalogue",
+   "turns": [
+    "do you sell dog food?"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O005",
+   "type": "out_of_catalogue",
+   "turns": [
+    "I'm looking for a sofa"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O006",
+   "type": "out_of_catalogue",
+   "turns": [
+    "car tyres under \u00a350"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O007",
+   "type": "out_of_catalogue",
+   "turns": [
+    "can I get noise-cancelling headphones"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O008",
+   "type": "out_of_catalogue",
+   "turns": [
+    "do you sell a kettle?"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O009",
+   "type": "out_of_catalogue",
+   "turns": [
+    "I'm looking for protein powder"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O010",
+   "type": "out_of_catalogue",
+   "turns": [
+    "board games under \u00a350"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O011",
+   "type": "out_of_catalogue",
+   "turns": [
+    "can I get a mattress"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O012",
+   "type": "out_of_catalogue",
+   "turns": [
+    "do you sell a laptop?"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O013",
+   "type": "out_of_catalogue",
+   "turns": [
+    "I'm looking for a fishing rod"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O014",
+   "type": "out_of_catalogue",
+   "turns": [
+    "a pram under \u00a350"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O015",
+   "type": "out_of_catalogue",
+   "turns": [
+    "can I get paint"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O016",
+   "type": "out_of_catalogue",
+   "turns": [
+    "do you sell vitamins?"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  },
+  {
+   "id": "O017",
+   "type": "out_of_catalogue",
+   "turns": [
+    "I'm looking for a drone"
+   ],
+   "expect": "refuse_out_of_catalogue"
+  }
+ ],
+ "foreign_brand": [
+  {
+   "id": "B000",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Gucci handbag?"
+   ],
+   "brand": "Gucci",
+   "hard": {
+    "category": "handbag"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B001",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Prada handbag?"
+   ],
+   "brand": "Prada",
+   "hard": {
+    "category": "handbag"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B002",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Nike trainers?"
+   ],
+   "brand": "Nike",
+   "hard": {
+    "category": "trainers"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B003",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Adidas trainers?"
+   ],
+   "brand": "Adidas",
+   "hard": {
+    "category": "trainers"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B004",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Levi's jeans?"
+   ],
+   "brand": "Levi's",
+   "hard": {
+    "category": "jeans"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B005",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Zara dress?"
+   ],
+   "brand": "Zara",
+   "hard": {
+    "category": "dress"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B006",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Rolex watch?"
+   ],
+   "brand": "Rolex",
+   "hard": {
+    "category": "watch"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B007",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Dr Martens boots?"
+   ],
+   "brand": "Dr Martens",
+   "hard": {
+    "category": "boots"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B008",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Ray-Ban watch?"
+   ],
+   "brand": "Ray-Ban",
+   "hard": {
+    "category": "watch"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B009",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Birkenstock sandals?"
+   ],
+   "brand": "Birkenstock",
+   "hard": {
+    "category": "sandals"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B010",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Uniqlo t-shirt?"
+   ],
+   "brand": "Uniqlo",
+   "hard": {
+    "category": "t-shirt"
+   },
+   "expect": "answer_with_disclosure"
+  },
+  {
+   "id": "B011",
+   "type": "foreign_brand",
+   "turns": [
+    "have you got any Barbour jacket?"
+   ],
+   "brand": "Barbour",
+   "hard": {
+    "category": "jacket"
+   },
+   "expect": "answer_with_disclosure"
+  }
+ ],
+ "impossible": [
+  {
+   "id": "I000",
+   "type": "impossible",
+   "turns": [
+    "dress under \u00a311"
+   ],
+   "hard": {
+    "category": "dress",
+    "max_price": 11.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I001",
+   "type": "impossible",
+   "turns": [
+    "shirt under \u00a35"
+   ],
+   "hard": {
+    "category": "shirt",
+    "max_price": 5.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I002",
+   "type": "impossible",
+   "turns": [
+    "t-shirt under \u00a32"
+   ],
+   "hard": {
+    "category": "t-shirt",
+    "max_price": 2.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I003",
+   "type": "impossible",
+   "turns": [
+    "jeans under \u00a316"
+   ],
+   "hard": {
+    "category": "jeans",
+    "max_price": 16.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I004",
+   "type": "impossible",
+   "turns": [
+    "trousers under \u00a311"
+   ],
+   "hard": {
+    "category": "trousers",
+    "max_price": 11.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I005",
+   "type": "impossible",
+   "turns": [
+    "jacket under \u00a319"
+   ],
+   "hard": {
+    "category": "jacket",
+    "max_price": 19.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I006",
+   "type": "impossible",
+   "turns": [
+    "coat under \u00a326"
+   ],
+   "hard": {
+    "category": "coat",
+    "max_price": 26.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I007",
+   "type": "impossible",
+   "turns": [
+    "jumper under \u00a37"
+   ],
+   "hard": {
+    "category": "knitwear",
+    "max_price": 7.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I008",
+   "type": "impossible",
+   "turns": [
+    "trainers under \u00a38"
+   ],
+   "hard": {
+    "category": "trainers",
+    "max_price": 8.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I009",
+   "type": "impossible",
+   "turns": [
+    "boots under \u00a322"
+   ],
+   "hard": {
+    "category": "boots",
+    "max_price": 22.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I010",
+   "type": "impossible",
+   "turns": [
+    "heels under \u00a319"
+   ],
+   "hard": {
+    "category": "heels",
+    "max_price": 19.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I011",
+   "type": "impossible",
+   "turns": [
+    "loafers under \u00a314"
+   ],
+   "hard": {
+    "category": "loafers",
+    "max_price": 14.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I012",
+   "type": "impossible",
+   "turns": [
+    "sandals under \u00a34"
+   ],
+   "hard": {
+    "category": "sandals",
+    "max_price": 4.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I013",
+   "type": "impossible",
+   "turns": [
+    "handbag under \u00a38"
+   ],
+   "hard": {
+    "category": "handbag",
+    "max_price": 8.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I014",
+   "type": "impossible",
+   "turns": [
+    "backpack under \u00a310"
+   ],
+   "hard": {
+    "category": "backpack",
+    "max_price": 10.0
+   },
+   "expect": "no_match"
+  },
+  {
+   "id": "I015",
+   "type": "impossible",
+   "turns": [
+    "watch under \u00a320"
+   ],
+   "hard": {
+    "category": "watch",
+    "max_price": 20.0
+   },
+   "expect": "no_match"
+  }
+ ]
+}
